@@ -13,10 +13,7 @@ class Valves(QtWidgets.QWidget):
         self.store = store
         self.setWindowFlags(QtCore.Qt.WindowType.Window | QtCore.Qt.WindowType.CustomizeWindowHint | QtCore.Qt.WindowType.WindowTitleHint | QtCore.Qt.WindowType.WindowCloseButtonHint)
         self._InitUi()
-        # self.updatevalues.connect(self.ReadingValue)
-        store.updatevalues.connect(lambda:self.ReadingValue)
-        # print(f"Connected:{connected}")
-        # self.setWindowTitle("0EV001")
+        store.updatevalues.connect(self.ReadingValue)
         self.settingData()
 
     def _InitUi(self):
@@ -92,12 +89,14 @@ class Valves(QtWidgets.QWidget):
         self.OPValue.setText("CLOSE")
         self.Closeradio.setChecked(True)
         self.Openradio.setChecked(False)
-        self.ValveChangingPos.emit(2)
+        # self.ValveChangingPos.emit(2)
         # print("Signal emitted: ClosingPostion")
     
     @QtCore.pyqtSlot(dict,list)
     def ReadingValue(self, data, tags):
-        pass
+        value = data[self.variableid]
+        self.ValveChangingPos.emit(value)
+        self.store.timer.stop()
         
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

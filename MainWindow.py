@@ -30,7 +30,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.cntwidget = MainWidget(self.store)
         self.cntwidget.changePageSignal.connect(self.gotoPage)
         self.setCentralWidget(self.cntwidget)
-        self.toolbar = Toolbar()
+        self.toolbar = Toolbar(self.store)
         self.addToolBar(self.toolbar)
         
     def drawFirstPage(self):

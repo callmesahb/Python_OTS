@@ -7,6 +7,7 @@ from ControllerPlate import ControllerPlate
 from Sensor import Sensor
 
 class Indicator(QtWidgets.QWidget):
+    updatevalues = QtCore.pyqtSignal(dict,list)
     def __init__(self,name,value,itype,pvvalues,store):
         super().__init__()
         self.setStyleSheet("background-color:black")
@@ -31,7 +32,10 @@ class Indicator(QtWidgets.QWidget):
     def settingValue(self):
         self.Value = QtWidgets.QLabel("245",self)
         self.Value.move(5,0)
-        self.Value.setText(str(self.value))
+        if self.itype == "":
+            self.Value.setText(str(round(self.value,2)))
+        if self.itype == "controller":
+            self.Value.setText(str(round(self.pvvalues[1],2)))
         self.Value.setStyleSheet("color:#40d964; font-size:14px;")
         
     def mousePressEvent(self, event: QtGui.QMouseEvent):

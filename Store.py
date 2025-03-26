@@ -1,4 +1,4 @@
-from PyQt6.QtCore import QObject, pyqtSignal, pyqtSlot
+from PyQt6.QtCore import QObject, pyqtSignal, pyqtSlot,QTimer
 from OpcClient import OpcClient as opc
 from workerThread import Worker
 import pandas as pd
@@ -22,6 +22,9 @@ class Store(QObject):
         self.opcSettings = self.read_json_file(self.certfile)
         url = self.opcSettings["endPointUrl"]
         self.opc = opc(url)
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.ReadingTagClient)
+        self.timer.start(1000)
         self.getting_names()
         self.gettingvalvedata()
         self.tag = self.ReadingtagsFile()
@@ -125,5 +128,4 @@ class Store(QObject):
 
     def ReadingTagClient(self):
         newtags = {i: self.opc.getValue(i) for i in self.csvfile["tag"]}
-        # print(type(newtags))
         self.updatevalues.emit(newtags,self.tag)
