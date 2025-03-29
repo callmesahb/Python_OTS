@@ -8,7 +8,7 @@ from Sensor import Sensor
 
 class Indicator(QtWidgets.QWidget):
     updatevalues = QtCore.pyqtSignal(dict,list)
-    def __init__(self,name,value,itype,pvvalues,store):
+    def __init__(self,name,value,itype,pvvalues,store,variableid):
         super().__init__()
         self.setStyleSheet("background-color:black")
         self.name = name
@@ -16,6 +16,7 @@ class Indicator(QtWidgets.QWidget):
         self.itype = itype
         self.pvvalues = pvvalues
         self.store = store
+        self.variableid = variableid
         # self.itype = itype
         self.InitUI()
         # self.setGeometry(576,262,100,30)
@@ -41,7 +42,7 @@ class Indicator(QtWidgets.QWidget):
     def mousePressEvent(self, event: QtGui.QMouseEvent):
         if event.button() == Qt.MouseButton.LeftButton:
             if self.itype == "controller":
-                self.contplate = ControllerPlate(self.name,self.pvvalues)
+                self.contplate = ControllerPlate(self.name,self.pvvalues,self.variableid,self.store)
                 self.contplate.show()
             if self.itype == "":
                 self.sensor = Sensor(self.value,self.store,self.name)

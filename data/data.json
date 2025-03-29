@@ -1283,7 +1283,7 @@
           {
             "id": "0TIC064B",
             "pos": { "l": 745, "t": 500, "w": 80, "h": 20 },
-            "variableId": "407ES0TIC064B",
+            "variableId": "407ES0TIC064",
             "namePos": "N",
             "type": "controller"
           }
@@ -5881,7 +5881,7 @@
           {
             "id": "0LI016",
             "pos": { "l": 872.5, "t": 446, "w": 80, "h": 20 },
-            "variableId": "403GL0LIC016PV",
+            "variableId": "403GL0LIC016",
             "type": "controller"
           },
           {

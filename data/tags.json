@@ -2719,5 +2719,7 @@
     { "name": "403ARS0EV021", "initial": 1, "defaultValue": 1, "errorValue": 2 },
     { "name": "403ARS0EV021PV", "value": 1, "derived": { "variableIds": ["403ARS0EV021"], "type": "timeDiff", "timeDiff": 1.0 } },
     { "name": "403GLFilter", "value": 1, "initial": 1 },
-    { "name": "403GLFilter2", "value": 2, "initial": 2 }
+    { "name": "403GLFilter2", "value": 2, "initial": 2 },
+    { "name": "407ES0BPZIC035", "initial": 2, "defaultValue": 1, "errorValue": 2 },
+    { "name": "407ES0BPZIC035PV", "value": 2, "derived": { "variableIds": ["407ES0BPZIC035"], "type": "timeDiff", "timeDiff": 1.0 } }
   ]

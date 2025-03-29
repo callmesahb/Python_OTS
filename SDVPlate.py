@@ -82,7 +82,7 @@ class Valves(QtWidgets.QWidget):
         self.OPValue.setText("OPEN")
         self.Openradio.setChecked(True)
         self.Closeradio.setChecked(False)
-        self.ValveChangingPos.emit(1)
+        # self.ValveChangingPos.emit(1)
         # print("Signal emitted: OpeningPosition")
 
     def ClosingPostion(self):
@@ -95,8 +95,8 @@ class Valves(QtWidgets.QWidget):
     @QtCore.pyqtSlot(dict,list)
     def ReadingValue(self, data, tags):
         value = data[self.variableid]
-        self.ValveChangingPos.emit(value)
-        self.store.timer.stop()
+        # print(f"{self.variableid}:{value}")
+        # self.ValveChangingPos.emit(value)
         
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

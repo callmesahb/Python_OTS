@@ -10,6 +10,7 @@ import random
 
 class DosingPump(QWidget):
         PumpChangingPos = pyqtSignal(str)
+        updatevalues = pyqtSignal(dict,list)
         def __init__(self,rotated):
                 super().__init__()
                 self.setWindowTitle("p2")

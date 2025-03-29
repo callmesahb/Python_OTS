@@ -21,6 +21,7 @@ import json
 class MainWidget(QtWidgets.QWidget):
     changePageSignal = pyqtSignal(int)
     ChangingValveStatus = pyqtSignal(int)
+    updatevalues = pyqtSignal(dict,list)
 
     def __init__(self, store: Store):
         super().__init__()
@@ -89,7 +90,7 @@ class MainWidget(QtWidgets.QWidget):
                 itype = _ind["type"]
                 value = self.store.SettingInitial(variableid)
                 pvvalues = self.store.GettingControllerDetails(variableid)
-                indi = Indicator(variableid, value, itype, pvvalues,self.store)
+                indi = Indicator(name, value, itype, pvvalues,self.store,variableid)
                 indi.setGeometry(int(self.scale * pos["l"]), int(self.scale * pos["t"]), 80, 20)
                 tempScene.addWidget(indi)
             for _link in page["links"]:
@@ -112,12 +113,12 @@ class MainWidget(QtWidgets.QWidget):
 
                 if _type == "controller" and variableid in self.store.getting_names():
                     pvvalues = self.store.GettingControllerDetails(variableid)
-                    valve = ControllerValve(name, rotated, pvvalues)
+                    valve = ControllerValve(name, rotated, pvvalues,variableid,self.store)
                     valve.set_status(pvvalues[2])
                 elif _type in {"sdv", "bdv"}:
                     valve = valveEV(self.store,variableid,name, value,rotated)
-                    valve.ChangingValveStatus.connect(self.CheckingvalueSDV)
-                    valve.set_status(value)
+                    # valve.ChangingValveStatus.connect(self.CheckingvalueSDV)
+                    # valve.set_status(value)
                 elif _type == "dosing":
                     valve = DosingPump(rotated)
                     valve.set_status(value)
@@ -178,9 +179,6 @@ class MainWidget(QtWidgets.QWidget):
         # self.graphicsview.fitInView(self.scenes[SceneIndex].sceneRect(), QtCore.Qt.AspectRatioMode.KeepAspectRatio)
         
 
-    @pyqtSlot(int)
-    def CheckingvalueSDV(self, value):
-        self.ChangingValveStatus.emit(value)
 
     @pyqtSlot(int)
     def ChangePageByLink(self, dest):

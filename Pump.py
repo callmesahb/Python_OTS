@@ -10,6 +10,7 @@ import random
 
 class NormalPump(QWidget):
         PumpChangingPos = pyqtSignal(str)
+        updatevalues = pyqtSignal(dict,list)
         def __init__(self,name,value):
             super().__init__()
             self.name = name

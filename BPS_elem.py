@@ -10,6 +10,7 @@ import random
 
 class BPS(QWidget):
         ValveChangingPos = pyqtSignal(int)
+        updatevalues = pyqtSignal(dict,list)
         def __init__(self,store,variableid,name,value):
                 super().__init__()
                 

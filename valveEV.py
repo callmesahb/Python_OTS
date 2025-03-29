@@ -2,20 +2,24 @@
 from PyQt6.QtWidgets import QLabel, QLineEdit, QApplication, QVBoxLayout, QWidget
 from PyQt6.QtGui import QPixmap,QMouseEvent,QTransform
 from SDVPlate import Valves
+from Store import Store
 from PyQt6.QtCore import Qt,pyqtSignal,pyqtSlot
 import sys
 import os
 
 class valveEV(QWidget):
     ChangingValveStatus = pyqtSignal(int)
-
-    def __init__(self,store, variableid,name, value,rotated):
+    updatevalues = pyqtSignal(dict,list)
+    def __init__(self,store:Store, variableid,name, value,rotated):
         super().__init__()
         self.value = value
         self.name = name
         self.rotated = rotated
+        self.variableid = variableid
         self.setWindowTitle("valveEV")
         self.faceplate = Valves(store,variableid,value)
+        self.store = store
+        self.store.updatevalues.connect(self.ReadingValue)
         self.resize(50, 40)
         current_path = os.getcwd()
         images = os.path.join(current_path, "images")
@@ -56,13 +60,21 @@ class valveEV(QWidget):
                 # print("Status set to 2 (red)")
             case _:
                 pass
-
+    @pyqtSlot(dict,list)
+    def ReadingValue(self,data,tags):
+        value = data[self.variableid]
+        self.set_status(value)
+    #     # print(f"{self.variableid}:{value}")
+    #     # self.store.worker.stop()
+    #     self.store.timer.stop()
+    #     self.updatevalues.emit(data,tags)
+        # if not self.store.timer.isActive():
+        #     self.store.timer.start(2000)
     def mousePressEvent(self, event: QMouseEvent):
         if event.button() == Qt.MouseButton.LeftButton:
             self.faceplate.setWindowTitle(self.name)
             self.faceplate.name.setText(self.name)
             self.faceplate.show()
-        return super().mousePressEvent(event)
 if __name__ == '__main__':
         app = QApplication(sys.argv)
         

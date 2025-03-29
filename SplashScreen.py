@@ -68,8 +68,6 @@ class SplashScreen(QtWidgets.QSplashScreen):
         self.finish(self.mainWidget)
         self.mainWidget.showMaximized()
         
-    
-        
         
 if __name__ == "__main__":
     app = QtWidgets.QApplication([])

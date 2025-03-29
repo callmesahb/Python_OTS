@@ -1,16 +1,21 @@
 from PyQt6 import QtWidgets, QtGui, QtCore
 from controllerbar import TriangleWidget
+from Store import Store
 import sys
 
 
 class ControllerPlate(QtWidgets.QWidget):
     ChangePosValve = QtCore.pyqtSignal(float)
     changeHandtype = QtCore.pyqtSignal(str)
-    def __init__(self,name:str,pvvalue:list):
+    updatevalues = QtCore.pyqtSignal(dict,list)
+    def __init__(self,name:str,pvvalue:list,variableid,store:Store):
         super().__init__()
         # self.setFixedSize(250,400)
         self.name = name
         self.pvvalues = pvvalue
+        self.variableid = variableid
+        self.store = store
+        self.store.updatevalues.connect(self.upandsettingvaluesofcontroller)
         self.setWindowTitle("Controller")
         self._initUI()
     def _initUI(self):
@@ -89,9 +94,6 @@ class ControllerPlate(QtWidgets.QWidget):
         self.vlayout.addWidget(self.Accept)
         
         self.setWindowTitle(self.name)
-        self.SPValue.setPlaceholderText(str(self.pvvalues[0]))
-        self.PVValue.setPlaceholderText(str(self.pvvalues[1]))
-        self.OPValue.setPlaceholderText(str(self.pvvalues[2]))
         self.ChangePosValve.emit(self.pvvalues[2])
         
     def UpdateOP(self):
@@ -104,3 +106,25 @@ class ControllerPlate(QtWidgets.QWidget):
     def keyPressEvent(self, event):
         if event.key() == QtCore.Qt.Key.Key_Enter or event.key() == QtCore.Qt.Key.Key_Return:
             self.UpdateOP()
+            
+    @QtCore.pyqtSlot(dict,list)
+    def upandsettingvaluesofcontroller(self,data,tags):
+        Varid = self.variableid.replace("OP","")
+        sp = Varid + "SP"
+        pv = Varid + "PV"
+        op = Varid + "OP"
+        tv = Varid + "TV"
+        spvalue = data[sp]
+        pvvalue = data[pv]
+        opvalue = data[op]
+        tvvalue = data[tv]
+        print(f"{Varid}:{tvvalue}")
+        if tvvalue == 0.0:
+            self.OPValue.setReadOnly(True)
+            self.PVValue.setReadOnly(True)
+        else:
+            self.OPValue.setReadOnly(False)
+            self.PVValue.setReadOnly(False)
+        self.SPValue.setText(str(round(spvalue,2)))
+        self.PVValue.setText(str(round(pvvalue,2)))
+        self.OPValue.setText(str(round(opvalue,2)))

@@ -1,10 +1,22 @@
-from PyQt6.QtCore import QObject, pyqtSignal, pyqtSlot,QTimer
+from PyQt6.QtCore import QObject, pyqtSignal, pyqtSlot,QTimer,QMetaObject,QRunnable,QThreadPool
 from OpcClient import OpcClient as opc
 from workerThread import Worker
+from StoreThread import StoreThread
 import pandas as pd
 import os
 import sys
 import json
+
+class FetchHeavyTasks(QRunnable):
+    def __init__(self,opc,csvfile,callback):
+        super().__init__()
+        self.opc = opc
+        self.csvfile = csvfile
+        self.callback = callback
+        
+    def run(self):
+        newtags = {i: self.opc.getValue(i) for i in self.csvfile["tag"]}
+        self.callback(newtags)
 
 class Store(QObject):
     updatevalues = pyqtSignal(dict,list)
@@ -22,14 +34,35 @@ class Store(QObject):
         self.opcSettings = self.read_json_file(self.certfile)
         url = self.opcSettings["endPointUrl"]
         self.opc = opc(url)
+        
+        self.threadpool = QThreadPool()
+        
+        
+        
+        
         self.timer = QTimer()
         self.timer.timeout.connect(self.ReadingTagClient)
-        self.timer.start(1000)
+        self.timer.start(2000)
+        
+        
         self.getting_names()
         self.gettingvalvedata()
         self.tag = self.ReadingtagsFile()
-        self.ReadingTagClient()
+        # self.worker = StoreThread(self.opc,self.csvfile,self.tag)
+        # self.worker.data_ready.connect(self.updating)
+        # self.worker.start()
         
+        # self.timer = QTimer()
+        # self.timer.timeout.connect(lambda: QMetaObject.invokeMethod(self.worker, 'ReadingTagClient'))
+        # self.timer.start(2000)
+        self.ReadingTagClient()
+    
+    def fetch_data(self):
+        task = FetchHeavyTasks(self.opc,self.csvfile,self.update_data)
+        self.threadpool.start(task)
+    
+    def update_data(self,newtags):
+        self.updatevalues.emit(newtags,self.tag)
     def ReadingtagsFile(self) -> list:
         with open(self.tagsfile,"r") as file:
             data = json.load(file)
@@ -129,3 +162,7 @@ class Store(QObject):
     def ReadingTagClient(self):
         newtags = {i: self.opc.getValue(i) for i in self.csvfile["tag"]}
         self.updatevalues.emit(newtags,self.tag)
+    
+    @pyqtSlot(dict,list)
+    def updating(self,data,tags):
+        self.updatevalues.emit(data,tags)

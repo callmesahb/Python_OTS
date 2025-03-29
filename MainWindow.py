@@ -1,4 +1,4 @@
-from PyQt6 import QtWidgets, QtGui
+from PyQt6 import QtWidgets, QtGui,QtCore
 from PyQt6.QtCore import Qt, pyqtSlot
 from centralwidget import MainWidget
 from AppToolbar import Toolbar
@@ -8,6 +8,7 @@ from Store import Store
 import os
 
 class MainWindow(QtWidgets.QMainWindow):
+    updatevalues = QtCore.pyqtSignal(dict,list)
     def __init__(self,data,store:Store):
         super().__init__()
 
@@ -19,7 +20,6 @@ class MainWindow(QtWidgets.QMainWindow):
         self.Currentindex = 0
         self.page = self.data["layout"]["sections"]
         self._initUI()
-        # self.ChangingByClick()
         self.getPageOrder()
         self.drawFirstPage()
         self.drawoverviews()

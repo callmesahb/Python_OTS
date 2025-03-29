@@ -21,7 +21,7 @@ class HAND(QWidget):
                 path = os.path.join(current,"images")
                 self.eqpath = os.path.join(path,"equipment")
                 self.list = self.store.GettingControllerDetails(varid)
-                self.plate = ControllerPlate(varid,self.list)
+                self.plate = ControllerPlate(varid,self.list,varid,store)
                 self.plate.changeHandtype.connect(self.set_status)
 
                 self.image = {}

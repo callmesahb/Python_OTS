@@ -10,6 +10,7 @@ import os
 
 class Aircooler(QWidget):
     PumpChangingPos = pyqtSignal(str)
+    updatevalues = pyqtSignal(dict,list)
     def __init__(self,name):
         super().__init__()
         self.setWindowTitle("Aircooler")
