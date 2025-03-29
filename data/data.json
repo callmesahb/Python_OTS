@@ -8,63 +8,62 @@
         "height": 921,
         "imageUrl": "images/403A-1.png",
         "type": "plant",
-        "page": "SPR403A-001",
         "description": "Regeneration Gas Solvent",
         "overview": true,
         "lines": [],
         "valves": [
           {
             "id": "0EV021",
-            "pos": { "l": 226, "t": 92.5, "w": 24, "h": 24 },
+            "pos": { "l": 226, "t": 82.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403ARS0EV021",
             "rotated": ""
           },
           {
             "id": "0TIC012",
-            "pos": { "l": 213, "t": 290.5, "w": 24, "h": 24 },
+            "pos": { "l": 208, "t": 280.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403ARS0TIC012OP",
             "rotated": ""
           },
           {
             "id": "0EV013",
-            "pos": { "l": 285, "t": 502.5, "w": 24, "h": 24 },
+            "pos": { "l": 285, "t": 492.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403ARS0EV013",
             "rotated": ""
           },
           {
             "id": "0PIC049",
-            "pos": { "l": 164, "t": 635.5, "w": 24, "h": 24 },
+            "pos": { "l": 159, "t": 625.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403ARS0PIC049OP",
             "rotated": ""
           },
           {
             "id": "0EV010",
-            "pos": { "l": 206, "t": 726.5, "w": 24, "h": 24 },
+            "pos": { "l": 206, "t": 716.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403ARS0EV010",
             "rotated": ""
           },
           {
             "id": "0LIC011",
-            "pos": { "l": 306, "t": 726.5, "w": 24, "h": 24 },
+            "pos": { "l": 301, "t": 716.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403ARS0LIC011OP",
             "rotated": ""
           },
           {
             "id": "0EV011",
-            "pos": { "l": 202, "t": 850.5, "w": 24, "h": 24 },
+            "pos": { "l": 202, "t": 840.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403ARS0EV011",
             "rotated": ""
           },
           {
             "id": "0LIC010",
-            "pos": { "l": 455, "t": 790.5, "w": 24, "h": 24 },
+            "pos": { "l": 445, "t": 784.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "controller",
             "namePos": "NN",
@@ -72,7 +71,7 @@
           },
           {
             "id": "0LIC019",
-            "pos": { "l": 587, "t": 790.5, "w": 24, "h": 24 },
+            "pos": { "l": 577, "t": 785.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "controller",
             "namePos": "NN",
@@ -81,14 +80,14 @@
           },
           {
             "id": "0EV005",
-            "pos": { "l": 869, "t": 783.5, "w": 24, "h": 24 },
+            "pos": { "l": 869, "t": 773.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403ARS0EV005",
             "rotated": ""
           },
           {
             "id": "0LIC003",
-            "pos": { "l": 1040, "t": 783.5, "w": 24, "h": 24 },
+            "pos": { "l": 1035, "t": 773.5, "w": 24, "h": 24 },
             "type": "controller",
             "rotated": "",
             "variableId": "403ARS0LIC003OP",
@@ -96,21 +95,21 @@
           },
           {
             "id": "0EV008",
-            "pos": { "l": 914, "t": 537.5, "w": 24, "h": 24 },
+            "pos": { "l": 914, "t": 527.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403ARS0EV008",
             "rotated": ""
           },
           {
             "id": "0EV015",
-            "pos": { "l": 1072, "t": 380.5, "w": 24, "h": 24 },
+            "pos": { "l": 1072, "t": 370.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403ARS0EV015",
             "rotated": ""
           },
           {
             "id": "0LIC023",
-            "pos": { "l": 1170, "t": 380.5, "w": 24, "h": 24 },
+            "pos": { "l": 1165, "t": 370.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403ARS0LIC023OP",
             "namePos": "N",
@@ -118,7 +117,7 @@
           },
           {
             "id": "0TIC040",
-            "pos": { "l": 1444, "t": 475.5, "w": 24, "h": 24 },
+            "pos": { "l": 1439, "t": 465.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403ARS0TIC040OP",
             "namePos": "N",
@@ -126,14 +125,14 @@
           },
           {
             "id": "0EV012",
-            "pos": { "l": 1424, "t": 177.5, "w": 24, "h": 24 },
+            "pos": { "l": 1424, "t": 167.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403ARS0EV012",
             "rotated": ""
           },
           {
             "id": "0PIC007",
-            "pos": { "l": 1424, "t": 48.5, "w": 24, "h": 24 },
+            "pos": { "l": 1419, "t": 38.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403ARS0PIC007OP",
             "namePos": "N",
@@ -311,7 +310,7 @@
           },
           {
             "id": "0PIC007",
-            "pos": { "l": 1245, "t": 50.5, "w": 80, "h": 20 },
+            "pos": { "l": 1258, "t": 50.5, "w": 80, "h": 20 },
             "variableId": "403ARS0PIC007",
             "type": "controller"
           },
@@ -332,28 +331,28 @@
         "flares": [],
         "sliders": [
           {
-            "id": "SLI011",
+            "id": "0SLI011",
             "pos": { "l": 473, "t": 565.5, "w": 18, "h": 90 },
             "variableId": "403ARS0LIC011PV",
             "color": "#03d204",
             "rotated": ""
           },
           {
-            "id": "SLI019",
+            "id": "0SLI019",
             "pos": { "l": 636, "t": 583.5, "w": 15, "h": 70 },
             "variableId": "403ARS0LI019",
             "color": "#03d204",
             "rotated": ""
           },
           {
-            "id": "SLI003",
+            "id": "0SLI003",
             "pos": { "l": 720, "t": 522.5, "w": 18, "h": 90 },
             "variableId": "403ARS0LIC003PV",
             "color": "#03d204",
             "rotated": ""
           },
           {
-            "id": "SLI023",
+            "id": "0SLI023",
             "pos": { "l": 941, "t": 230.5, "w": 20, "h": 90 },
             "variableId": "403ARS0LIC023PV",
             "color": "#03d204",
@@ -361,21 +360,21 @@
           },
           {
             "id": "0TIC012",
-            "pos": { "l": 207, "t": 322.5, "w": 30, "h": 12 },
+            "pos": { "l": 207, "t": 322.5, "w": 60, "h": 12 },
             "variableId": "403ARS0TIC012OP",
             "rotated": "left",
             "color": "#03d204"
           },
           {
             "id": "0PIC049",
-            "pos": { "l": 157, "t": 667.5, "w": 30, "h": 12 },
+            "pos": { "l": 157, "t": 667.5, "w": 60, "h": 12 },
             "variableId": "403ARS0PIC049OP",
             "color": "#03d204",
             "rotated": "left"
           },
           {
             "id": "0LIC011",
-            "pos": { "l": 298, "t": 760.5, "w": 30, "h": 12 },
+            "pos": { "l": 298, "t": 760.5, "w": 60, "h": 12 },
             "variableId": "403ARS0LIC011OP",
             "color": "#03d204",
             "rotated": "left"
@@ -396,28 +395,28 @@
           },
           {
             "id": "0LIC003",
-            "pos": { "l": 1033, "t": 814.5, "w": 30, "h": 12 },
+            "pos": { "l": 1033, "t": 814.5, "w": 60, "h": 12 },
             "variableId": "403ARS0LIC003OP",
             "color": "#03d204",
             "rotated": "left"
           },
           {
             "id": "0LIC023",
-            "pos": { "l": 1165, "t": 413.5, "w": 30, "h": 12 },
+            "pos": { "l": 1165, "t": 413.5, "w": 60, "h": 12 },
             "variableId": "403ARS0LIC023OP",
             "color": "#03d204",
             "rotated": "left"
           },
           {
             "id": "0TIC040",
-            "pos": { "l": 1437, "t": 507.5, "w": 30, "h": 12 },
+            "pos": { "l": 1437, "t": 507.5, "w": 60, "h": 12 },
             "variableId": "403ARS0TIC040OP",
             "color": "#03d204",
             "rotated": "left"
           },
           {
             "id": "0PIC007",
-            "pos": { "l": 1418, "t": 80.5, "w": 30, "h": 12 },
+            "pos": { "l": 1418, "t": 80.5, "w": 60, "h": 12 },
             "variableId": "403ARS0PIC007OP",
             "color": "#03d204",
             "rotated": "left"
@@ -433,7 +432,6 @@
         "height": 905,
         "imageUrl": "images/407-RGT1.png",
         "type": "plant",
-        "page": "SPR403-001",
         "description": "Ethane Solvent Unit",
         "overview": true,
         "lines": [],
@@ -537,7 +535,7 @@
             "pos": { "l": 1230, "t": 228.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "controller",
-            "checkable": false,
+           "checkable":false ,
             "namePos": "E",
             "variableId": "0LIC029"
           }
@@ -666,50 +664,50 @@
             "type": "controller"
           },
           {
-            "id": "0AI005A",
-            "pos": { "l": 937, "t": 108.5, "w": 70, "h": 20 },
+            "id": "0AI005C",
+            "pos": { "l": 957, "t": 110.5, "w": 70, "h": 20 },
             "variableId": "407ES0AI005A",
             "type": ""
           },
           {
             "id": "0AI005B",
-            "pos": { "l": 937, "t": 68.5, "w": 70, "h": 20 },
+            "pos": { "l": 957, "t": 68.5, "w": 70, "h": 20 },
             "variableId": "407ES0AI005B",
             "type": ""
           },
           {
-            "id": "0AI005C",
-            "pos": { "l": 937, "t": 27.5, "w": 70, "h": 20 },
+            "id": "0AI005A",
+            "pos": { "l": 957, "t": 27.5, "w": 70, "h": 20 },
             "variableId": "407ES0AI005C",
             "type": ""
           },
           {
             "id": "0AI005D",
-            "pos": { "l": 810, "t": 108.5, "w": 70, "h": 20 },
+            "pos": { "l": 840, "t": 110.5, "w": 70, "h": 20 },
             "variableId": "407ES0AI005D",
             "type": ""
           },
           {
             "id": "0AI005E",
-            "pos": { "l": 810, "t": 68.5, "w": 70, "h": 20 },
+            "pos": { "l": 840, "t": 68.5, "w": 70, "h": 20 },
             "variableId": "407ES0AI005E",
             "type": ""
           },
           {
             "id": "0AI005F",
-            "pos": { "l": 810, "t": 27.5, "w": 70, "h": 20 },
+            "pos": { "l": 840, "t": 27.5, "w": 70, "h": 20 },
             "variableId": "407ES0AI005F",
             "type": ""
           },
           {
             "id": "0AI005G",
-            "pos": { "l": 715, "t": 108.5, "w": 70, "h": 20 },
+            "pos": { "l": 715, "t": 110.5, "w": 70, "h": 20 },
             "variableId": "407ES0AI005G",
             "type": ""
           },
           {
             "id": "0AI005H",
-            "pos": { "l": 715, "t": 68.5, "w": 70, "h": 20 },
+            "pos": { "l": 715, "t": 73.5, "w": 70, "h": 20 },
             "variableId": "407ES0AI005H",
             "type": ""
           },
@@ -867,7 +865,6 @@
         "height": 912,
         "imageUrl": "images/407-RGT2.png",
         "type": "plant",
-        "page": "SPR403-002",
         "description": "Ethane Miscellaneous Systems",
         "overview": true,
         "lines": [],
@@ -1191,98 +1188,98 @@
         "indicators": [
           {
             "id": "0PIC060",
-            "pos": { "l": 279, "t": 83, "w": 80, "h": 20 },
+            "pos": { "l": 289, "t": 83, "w": 80, "h": 20 },
             "variableId": "407ES0PIC060",
             "name": "0PIC060",
             "type": "controller"
           },
           {
             "id": "0PIC063",
-            "pos": { "l": 268, "t": 175, "w": 80, "h": 20 },
+            "pos": { "l": 278, "t": 175, "w": 80, "h": 20 },
             "variableId": "407ES0PIC063",
             "type": "controller"
           },
           {
             "id": "0PIC064",
-            "pos": { "l": 433, "t": 247, "w": 80, "h": 20 },
+            "pos": { "l": 443, "t": 247, "w": 80, "h": 20 },
             "variableId": "407ES0PIC064",
             "type": "controller"
           },
           {
             "id": "0TIC015",
-            "pos": { "l": 394, "t": 327, "w": 80, "h": 20 },
+            "pos": { "l": 404, "t": 327, "w": 80, "h": 20 },
             "variableId": "407ES0TIC015",
             "type": "controller"
           },
           {
             "id": "0LIC012",
-            "pos": { "l": 466, "t": 520, "w": 80, "h": 20 },
+            "pos": { "l": 476, "t": 520, "w": 80, "h": 20 },
             "variableId": "407ES0LIC012",
             "type": "controller"
           },
           {
             "id": "0FIC022B",
-            "pos": { "l": 174, "t": 765, "w": 80, "h": 20 },
+            "pos": { "l": 184, "t": 765, "w": 80, "h": 20 },
             "variableId": "407ES0FIC022B",
             "type": "controller"
           },
           {
             "id": "0TIC100",
-            "pos": { "l": 812, "t": 841, "w": 80, "h": 20 },
+            "pos": { "l": 822, "t": 841, "w": 80, "h": 20 },
             "variableId": "407ES0TIC100",
             "type": "controller"
           },
           {
             "id": "0LIC015",
-            "pos": { "l": 752, "t": 620, "w": 80, "h": 20 },
+            "pos": { "l": 762, "t": 620, "w": 80, "h": 20 },
             "variableId": "407ES0LIC015",
             "type": "controller"
           },
           {
             "id": "0FIC015",
-            "pos": { "l": 1190, "t": 500, "w": 80, "h": 20 },
+            "pos": { "l": 1200, "t": 500, "w": 80, "h": 20 },
             "variableId": "407ES0FIC015",
             "type": "controller"
           },
           {
             "id": "0PIC181",
-            "pos": { "l": 1316, "t": 500, "w": 80, "h": 20 },
+            "pos": { "l": 1326, "t": 500, "w": 80, "h": 20 },
             "variableId": "407ES0PIC181",
             "type": "controller"
           },
           {
             "id": "0LIC037",
-            "pos": { "l": 976, "t": 339, "w": 80, "h": 20 },
+            "pos": { "l": 986, "t": 339, "w": 80, "h": 20 },
             "variableId": "407ES0LIC037",
             "type": "controller"
           },
           {
             "id": "0PIC001",
-            "pos": { "l": 1098, "t": 320, "w": 80, "h": 20 },
+            "pos": { "l": 1108, "t": 320, "w": 80, "h": 20 },
             "variableId": "407ES0PIC001",
             "type": "controller"
           },
           {
             "id": "0PIC075",
-            "pos": { "l": 1202, "t": 207, "w": 80, "h": 20 },
+            "pos": { "l": 1212, "t": 207, "w": 80, "h": 20 },
             "variableId": "407ES0PIC075",
             "type": "controller"
           },
           {
             "id": "0TIC034",
-            "pos": { "l": 843, "t": 295, "w": 80, "h": 20 },
+            "pos": { "l": 853, "t": 295, "w": 80, "h": 20 },
             "variableId": "407ES0TIC034",
             "type": "controller"
           },
           {
             "id": "0PIC007",
-            "pos": { "l": 829, "t": 40, "w": 80, "h": 20 },
+            "pos": { "l": 839, "t": 40, "w": 80, "h": 20 },
             "variableId": "407ES0PIC007B",
             "type": "controller"
           },
           {
             "id": "0TIC064B",
-            "pos": { "l": 745, "t": 500, "w": 80, "h": 20 },
+            "pos": { "l": 765, "t": 500, "w": 80, "h": 20 },
             "variableId": "407ES0TIC064B",
             "namePos": "N",
             "type": "controller"
@@ -1410,7 +1407,6 @@
         "height": 816,
         "imageUrl": "images/407ED1.png",
         "type": "plant",
-        "page": "SPR407-001",
         "description": "Ethane Product Treating Unit",
         "overview": true,
         "lines": [],
@@ -1771,19 +1767,19 @@
           },
           {
             "id": "0PDI282A",
-            "pos": { "l": 210.5, "t": 655, "w": 80, "h": 20 },
+            "pos": { "l": 230.5, "t": 655, "w": 80, "h": 20 },
             "variableId": "407ED0PDI282A",
             "type": ""
           },
           {
             "id": "0PDI282B",
-            "pos": { "l": 210.5, "t": 704, "w": 80, "h": 20 },
+            "pos": { "l": 230.5, "t": 704, "w": 80, "h": 20 },
             "variableId": "407ED0PDI282A",
             "type": ""
           },
           {
             "id": "0PDI306",
-            "pos": { "l": 403.5, "t": 753, "w": 80, "h": 20 },
+            "pos": { "l": 423.5, "t": 753, "w": 80, "h": 20 },
             "variableId": "407ED0PDI306",
             "type": ""
           },
@@ -1795,13 +1791,13 @@
           },
           {
             "id": "0PIC283A",
-            "pos": { "l": 700.5, "t": 790, "w": 80, "h": 20 },
+            "pos": { "l": 740.5, "t": 790, "w": 80, "h": 20 },
             "variableId": "407ED0PIC283A",
             "type": "controller"
           },
           {
             "id": "0PIC283B",
-            "pos": { "l": 920.5, "t": 790, "w": 80, "h": 20 },
+            "pos": { "l": 940.5, "t": 790, "w": 80, "h": 20 },
             "variableId": "407ED0PIC283B",
             "type": "controller"
           },
@@ -1835,7 +1831,7 @@
           },
           {
             "id": "0PIC015A",
-            "pos": { "l": 1116.5, "t": 690, "w": 60, "h": 12 },
+            "pos": {"l": 1116.5, "t": 690,  "w": 60, "h": 12 },
             "variableId": "407ED0PIC015AOP",
             "rotated": "left"
           },
@@ -1857,7 +1853,6 @@
         "height": 897,
         "imageUrl": "images/403G-2.png",
         "type": "plant",
-        "page": "SPR407-012",
         "description": "Regeneration Gas Treatment",
         "overview": true,
         "lines": [],
@@ -2036,25 +2031,25 @@
         "indicators": [
           {
             "id": "0LIC016",
-            "pos": { "l": 320.5, "t": 372.5, "w": 80, "h": 20 },
+            "pos": { "l": 340.5, "t": 372.5, "w": 80, "h": 20 },
             "variableId": "403GL0LIC016",
             "type": "controller"
           },
           {
             "id": "0TIC001",
-            "pos": { "l": 1115.5, "t": 223.5, "w": 80, "h": 20 },
+            "pos": { "l": 1135.5, "t": 223.5, "w": 80, "h": 20 },
             "variableId": "403GL0TIC001",
             "type": "controller"
           },
           {
             "id": "0PIC706",
-            "pos": { "l": 880.5, "t": 571.5, "w": 80, "h": 20 },
+            "pos": { "l": 900.5, "t": 571.5, "w": 80, "h": 20 },
             "variableId": "403GL0PIC706",
             "type": "controller"
           },
           {
             "id": "0LIC708",
-            "pos": { "l": 850.5, "t": 620.5, "w": 80, "h": 20 },
+            "pos": { "l": 870.5, "t": 620.5, "w": 80, "h": 20 },
             "variableId": "403GL0LIC708",
             "type": "controller"
           }
@@ -2064,7 +2059,7 @@
         "sliders": [
           {
             "id": "SLI0708",
-            "pos": { "l": 815.5, "t": 578.5, "w": 20, "h": 70 },
+            "pos": { "l": 815.5, "t": 588.5, "w": 20, "h": 70 },
             "variableId": "403GL0LIC708PV",
             "color": "#03d204",
             "rotated": ""
@@ -2112,7 +2107,6 @@
         "height": 906,
         "imageUrl": "images/1.png",
         "type": "plant",
-        "page": "SPR407-011",
         "description": "Regeneration Gas Dehydration",
         "overview": true,
         "lines": [],
@@ -2353,48 +2347,48 @@
         "indicators": [
           {
             "id": "0PIC085",
-            "pos": { "l": 283.5, "t": 69.5, "w": 80, "h": 20 },
+            "pos": { "l": 293.5, "t": 69.5, "w": 80, "h": 20 },
             "name": "0PIC085",
             "variableId": "403GL0PIC085",
             "type": "controller"
           },
           {
             "id": "0PDI701",
-            "pos": { "l": 162.5, "t": 275.5, "w": 80, "h": 20 },
+            "pos": { "l": 172.5, "t": 275.5, "w": 80, "h": 20 },
             "variableId": "403GL0PDI701",
             "type": ""
           },
           {
             "id": "0PDI072",
-            "pos": { "l": 160.5, "t": 361.5, "w": 80, "h": 20 },
+            "pos": { "l": 170.5, "t": 361.5, "w": 80, "h": 20 },
             "name": "0PDI072",
             "variableId": "403GL0PDI072",
             "type": ""
           },
           {
             "id": "0LIC705",
-            "pos": { "l": 318.5, "t": 620.5, "w": 80, "h": 20 },
+            "pos": { "l": 328.5, "t": 620.5, "w": 80, "h": 20 },
             "name": "0LIC705",
             "variableId": "403GL0LIC705",
             "type": "controller"
           },
           {
             "id": "0LI717",
-            "pos": { "l": 1225.5, "t": 777.5, "w": 80, "h": 20 },
+            "pos": { "l": 1235.5, "t": 777.5, "w": 80, "h": 20 },
             "name": "0LI717",
             "variableId": "403GL0LI717",
             "type": ""
           },
           {
             "id": "0LI716",
-            "pos": { "l": 1284.5, "t": 333.5, "w": 80, "h": 25 },
+            "pos": { "l": 1294.5, "t": 333.5, "w": 80, "h": 25 },
             "name": "0LI716",
             "variableId": "403GL0LI716",
             "type": ""
           },
           {
             "id": "0LI715",
-            "pos": { "l": 1148.5, "t": 330.5, "w": 80, "h": 27 },
+            "pos": { "l": 1158.5, "t": 330.5, "w": 80, "h": 27 },
             "name": "0LI715",
             "variableId": "403GL0LI715",
             "type": ""
@@ -2415,7 +2409,7 @@
           },
           {
             "id": "0PI731",
-            "pos": { "l": 594.5, "t": 573.5, "w": 80, "h": 20 },
+            "pos": { "l": 604.5, "t": 573.5, "w": 80, "h": 20 },
             "name": "0PI731",
             "variableId": "403GL0PI731",
             "type": ""
@@ -2450,14 +2444,14 @@
           },
           {
             "id": "0LI713",
-            "pos": { "l": 635.5, "t": 805.5, "w": 80, "h": 20 },
+            "pos": { "l": 645.5, "t": 805.5, "w": 80, "h": 20 },
             "name": "0LI713",
             "variableId": "403GL0LI713",
             "type": ""
           },
           {
             "id": "0TIC707",
-            "pos": { "l": 838, "t": 631.5, "w": 80, "h": 24 },
+            "pos": { "l": 848, "t": 631.5, "w": 80, "h": 24 },
             "variableId": "403GL0TIC707",
             "type": "controller"
           }
@@ -2536,8 +2530,6 @@
         "height": 922,
         "imageUrl": "images/403A-6.png",
         "type": "plant",
-        "overview": false,
-        "page": "CPR403A-005",
         "description": "Regen Gas Particle Filter",
         "lines": [],
         "valves": [
@@ -2624,10 +2616,8 @@
         "parentId": 20,
         "width": 1690,
         "height": 922,
-        "overview": false,
         "imageUrl": "images/403A-2.png",
         "type": "plant",
-        "page": "CPR403A-001",
         "description": "Regeneration Gas Cooling",
         "lines": [],
         "valves": [
@@ -2833,19 +2823,19 @@
           },
           {
             "id": "0TI009",
-            "pos": { "l": 511, "t": 330, "w": 60, "h": 12 },
+            "pos": { "l": 515, "t": 333, "w": 60, "h": 12 },
             "rotated": "left",
             "variableId": "403ARS0TIC012OP"
           },
           {
             "id": "0PIC049",
-            "pos": { "l": 1438, "t": 495, "w": 60, "h": 12 },
+            "pos": { "l": 1450, "t": 495, "w": 60, "h": 12 },
             "variableId": "403ARS0PIC049OP",
             "rotated": "left"
           },
           {
             "id": "0TIC012",
-            "pos": { "l": 1090, "t": 285, "w": 60, "h": 12 },
+            "pos": { "l": 1095, "t": 285, "w": 60, "h": 12 },
             "variableId": "403ARS0TIC012OP",
             "rotated": "left"
           }
@@ -2861,8 +2851,6 @@
         "height": 896,
         "imageUrl": "images/403A-3.png",
         "type": "plant",
-        "overview": false,
-        "page": "CPR403A-002",
         "description": "Regen Gas Coalelescing Filter",
         "lines": [],
         "valves": [
@@ -2966,61 +2954,61 @@
         "indicators": [
           {
             "id": "0PDI001",
-            "pos": { "l": 428, "t": 215, "w": 80, "h": 20 },
+            "pos": { "l": 438, "t": 215, "w": 80, "h": 20 },
             "variableId": "403ARS0PDI001",
             "type": ""
           },
           {
             "id": "0PDI008",
-            "pos": { "l": 428, "t": 287, "w": 80, "h": 20 },
+            "pos": { "l": 438, "t": 287, "w": 80, "h": 20 },
             "variableId": "403ARS0PDI008",
             "type": ""
           },
           {
             "id": "0LIC011",
-            "pos": { "l": 535, "t": 492, "w": 80, "h": 20 },
+            "pos": { "l": 545, "t": 492, "w": 80, "h": 20 },
             "variableId": "403ARS0LIC011",
             "type": "controller"
           },
           {
             "id": "0LI010",
-            "pos": { "l": 535, "t": 540, "w": 80, "h": 20 },
+            "pos": { "l": 545, "t":540, "w": 80, "h": 20 },
             "variableId": "403ARS0LI010",
             "type": ""
           },
           {
             "id": "0FI013",
-            "pos": { "l": 475, "t": 785, "w": 80, "h": 20 },
+            "pos": { "l": 490, "t": 790, "w": 80, "h": 20 },
             "variableId": "403ARS0FI013",
             "type": ""
           },
           {
             "id": "0FI014",
-            "pos": { "l": 784, "t": 785, "w": 80, "h": 20 },
+            "pos": { "l": 794, "t": 790, "w": 80, "h": 20 },
             "variableId": "403ARS0FI014",
             "type": ""
           },
           {
             "id": "0LI019",
-            "pos": { "l": 1012, "t": 446, "w": 60, "h": 20 },
+            "pos": { "l": 1012, "t": 446, "w": 70, "h": 20 },
             "variableId": "403ARS0LI019",
             "type": ""
           },
           {
             "id": "0LI018",
-            "pos": { "l": 1012, "t": 378, "w": 60, "h": 20 },
+            "pos": { "l": 1012, "t": 378, "w": 70, "h": 20 },
             "variableId": "403ARS0LI018",
             "type": ""
           },
           {
             "id": "0LI009",
-            "pos": { "l": 535, "t": 375, "w": 80, "h": 20 },
+            "pos": { "l": 545, "t": 375, "w": 80, "h": 20 },
             "variableId": "403ARS0LI009",
             "type": ""
           },
           {
             "id": "0LI015",
-            "pos": { "l": 535, "t": 423, "w": 80, "h": 20 },
+            "pos": { "l": 545, "t": 423, "w": 80, "h": 20 },
             "variableId": "403ARS0LI015",
             "type": ""
           }
@@ -3074,9 +3062,7 @@
         "width": 1668,
         "height": 911,
         "imageUrl": "images/403A-4.png",
-        "overview": false,
         "type": "plant",
-        "page": "CPR403A-003",
         "description": "Regen Gas Solvent Contractor",
         "lines": [],
         "valves": [
@@ -3181,49 +3167,49 @@
         "indicators": [
           {
             "id": "0TI033",
-            "pos": { "l": 228, "t": 536.5, "w": 80, "h": 20 },
+            "pos": { "l": 238, "t": 536.5, "w": 80, "h": 20 },
             "variableId": "403ARS0TI033",
             "type": ""
           },
           {
             "id": "0LIC003",
-            "pos": { "l": 477, "t": 610.5, "w": 80, "h": 20 },
+            "pos": { "l": 487, "t": 610.5, "w": 80, "h": 20 },
             "variableId": "403ARS0LIC003",
             "type": "controller"
           },
           {
             "id": "0LI026",
-            "pos": { "l": 477, "t": 690.5, "w": 80, "h": 20 },
+            "pos": { "l": 487, "t": 690.5, "w": 80, "h": 20 },
             "variableId": "403ARS0LI026",
             "type": ""
           },
           {
             "id": "0TI036",
-            "pos": { "l": 477, "t": 750.5, "w": 80, "h": 20 },
+            "pos": { "l": 487, "t": 750.5, "w": 80, "h": 20 },
             "variableId": "403ARS0TI036",
             "type": ""
           },
           {
             "id": "0PDI041",
-            "pos": { "l": 578, "t": 510.5, "w": 60, "h": 20 },
+            "pos": { "l": 588, "t": 510.5, "w": 80, "h": 20 },
             "variableId": "403ARS0PDI041",
             "type": ""
           },
           {
             "id": "0TIC040",
-            "pos": { "l": 862, "t": 419.5, "w": 80, "h": 20 },
+            "pos": { "l": 872, "t": 419.5, "w": 80, "h": 20 },
             "variableId": "403ARS0TIC040",
             "type": ""
           },
           {
             "id": "0TI003",
-            "pos": { "l": 1286, "t": 230.5, "w": 80, "h": 20 },
+            "pos": { "l": 1296, "t": 230.5, "w": 80, "h": 20 },
             "variableId": "403ARS0TI003",
             "type": ""
           },
           {
             "id": "0TI034",
-            "pos": { "l": 513, "t": 250.5, "w": 80, "h": 20 },
+            "pos": { "l": 523, "t": 250.5, "w": 80, "h": 20 },
             "variableId": "403ARS0TI034",
             "type": ""
           }
@@ -3262,10 +3248,8 @@
         "parentId": 20,
         "width": 1690,
         "height": 911,
-        "overview": false,
         "imageUrl": "images/403A-5.png",
         "type": "plant",
-        "page": "CPR403A-004",
         "description": "Treated Regen Gas KO Drum",
         "lines": [],
         "valves": [
@@ -3343,37 +3327,37 @@
         "indicators": [
           {
             "id": "0TI042",
-            "pos": { "l": 374, "t": 259.5, "w": 80, "h": 20 },
+            "pos": { "l": 388, "t": 259.5, "w": 80, "h": 20 },
             "variableId": "403ARS0TI042",
             "type": ""
           },
           {
             "id": "0AI001",
-            "pos": { "l": 574, "t": 195.5, "w": 80, "h": 20 },
+            "pos": { "l": 584, "t": 195.5, "w": 80, "h": 20 },
             "variableId": "403ARS0AI001",
             "type": ""
           },
           {
             "id": "0PIC007",
-            "pos": { "l": 707, "t": 195.5, "w": 80, "h": 20 },
+            "pos": { "l": 717, "t": 195.5, "w": 80, "h": 20 },
             "variableId": "403ARS0PIC007",
             "type": "controller"
           },
           {
             "id": "0PDI010",
-            "pos": { "l": 605, "t": 381.5, "w": 80, "h": 20 },
+            "pos": { "l": 615, "t": 381.5, "w": 80, "h": 20 },
             "variableId": "403ARS0PDI010",
             "type": ""
           },
           {
-            "id": "0LIC023",
-            "pos": { "l": 502, "t": 490.5, "w": 80, "h": 20 },
+            "id": "0LI023",
+            "pos": { "l": 517, "t": 490.5, "w": 80, "h": 20 },
             "variableId": "403ARS0LIC023",
             "type": "controller"
           },
           {
             "id": "0LI022",
-            "pos": { "l": 502, "t": 544.5, "w": 80, "h": 20 },
+            "pos": { "l": 517, "t": 544.5, "w": 80, "h": 20 },
             "variableId": "403ARS0LI022",
             "type": ""
           }
@@ -3412,10 +3396,8 @@
         "parentId": 30,
         "width": 1656,
         "height": 909,
-        "imageUrl": "images/407-RGT3.jpg",
+        "imageUrl": "images/407-RGT3.png",
         "type": "plant",
-        "page": "CPR407-012",
-        "overview": false,
         "description": "Ethane Solvent Contractor",
         "lines": [],
         "valves": [
@@ -3730,7 +3712,7 @@
           },
           {
             "id": "0SLI026",
-            "pos": { "l": 733, "t": 727.5, "w": 20, "h": 70 },
+            "pos": { "l": 733, "t": 727.5, "w": 20, "h":70 },
             "variableId": "407ES0LI026B",
             "color": "#03d204",
             "rotated": ""
@@ -3771,28 +3753,26 @@
         "height": 926,
         "imageUrl": "images/407-RGT4.png",
         "type": "plant",
-        "overview": false,
-        "page": "CPR407-013",
         "description": "Ethane Product Cooler",
         "lines": [],
         "valves": [
           {
             "id": "0TIC014",
-            "pos": { "l": 210, "t": 182, "w": 24, "h": 24 },
+            "pos": { "l": 207, "t": 177, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "407ES0TIC014OP",
             "rotated": ""
           },
           {
             "id": "0LIC007",
-            "pos": { "l": 1010, "t": 843, "w": 24, "h": 24 },
+            "pos": { "l": 1000, "t": 833, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "407ES0LIC007OP",
             "rotated": ""
           },
           {
             "id": "0EV036",
-            "pos": { "l": 1443, "t": 840, "w": 24, "h": 24 },
+            "pos": { "l": 1443, "t": 830, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ES0EV036",
             "rotated": ""
@@ -3806,21 +3786,21 @@
           },
           {
             "id": "0EV002",
-            "pos": { "l": 1395, "t": 372, "w": 24, "h": 24 },
+            "pos": { "l": 1383, "t": 370, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ES0EV002",
             "rotated": ""
           },
           {
             "id": "0BPZIC002",
-            "pos": { "l": 1395, "t": 442, "w": 24, "h": 24 },
+            "pos": { "l": 1383, "t": 440, "w": 24, "h": 24 },
             "type": "bps",
             "variableId": "407ES0BPZIC002",
             "rotated": ""
           },
           {
             "id": "0PIC059",
-            "pos": { "l": 1455, "t": 288, "w": 24, "h": 24 },
+            "pos": { "l": 1435, "t": 283, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "407ES0PIC059OP",
             "rotated": ""
@@ -3834,14 +3814,14 @@
           },
           {
             "id": "0BV006",
-            "pos": { "l": 1374, "t": 88, "w": 24, "h": 24 },
+            "pos": { "l": 1368, "t": 85, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ES0BV006",
             "rotated": ""
           },
           {
             "id": "0EV049",
-            "pos": { "l": 1410, "t": 19, "w": 24, "h": 24 },
+            "pos": { "l": 1405, "t": 16, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ES0EV049",
             "rotated": ""
@@ -3898,31 +3878,31 @@
         "indicators": [
           {
             "id": "0PDI051A",
-            "pos": { "l": 615, "t": 563, "w": 81, "h": 20 },
+            "pos": { "l": 605, "t": 557, "w": 81, "h": 20 },
             "variableId": "407ES0PDI051A",
             "type": ""
           },
           {
             "id": "0PDI051B",
-            "pos": { "l": 616, "t": 666, "w": 78, "h": 20 },
+            "pos": { "l": 605, "t": 658, "w": 78, "h": 20 },
             "variableId": "407ES0PDI051B",
             "type": ""
           },
           {
             "id": "0LIC007",
-            "pos": { "l": 865, "t": 749, "w": 75, "h": 20 },
+            "pos": { "l": 844, "t": 739, "w": 80, "h": 20 },
             "variableId": "407ES0LIC007",
             "type": "controller"
           },
           {
             "id": "0LI029",
-            "pos": { "l": 1050, "t": 580, "w": 78, "h": 20 },
+            "pos": { "l": 1038, "t": 570, "w": 78, "h": 20 },
             "variableId": "0LI029",
             "type": ""
           },
           {
             "id": "0TIC014",
-            "pos": { "l": 796, "t": 384, "w": 71, "h": 20 },
+            "pos": { "l": 780, "t": 384, "w": 80, "h": 20 },
             "variableId": "407ES0TIC014",
             "type": "controller"
           },
@@ -3934,62 +3914,62 @@
           },
           {
             "id": "0AI005A",
-            "pos": { "l": 849, "t": 110, "w": 95, "h": 20 },
+            "pos": { "l": 838, "t": 110, "w": 70, "h": 20 },
             "variableId": "407ES0AI005A",
             "type": ""
           },
           {
             "id": "0AI005B",
-            "pos": { "l": 1041, "t": 113, "w": 95, "h": 20 },
+            "pos": { "l": 1033, "t": 113, "w": 70, "h": 20 },
             "variableId": "407ES0AI005B",
             "type": ""
           },
           {
             "id": "0AI005C",
-            "pos": { "l": 849, "t": 165, "w": 95, "h": 20 },
+            "pos": { "l": 838, "t": 165, "w": 70, "h": 20 },
             "variableId": "407ES0AI005C",
             "type": ""
           },
           {
             "id": "0AI005D",
-            "pos": { "l": 1043, "t": 163, "w": 81, "h": 20 },
+            "pos": { "l": 1033, "t": 163, "w": 70, "h": 20 },
             "variableId": "407ES0AI005D",
             "type": ""
           },
           {
             "id": "0AI005E",
-            "pos": { "l": 852, "t": 215, "w": 78, "h": 20 },
+            "pos": { "l": 838, "t": 215, "w": 70, "h": 20 },
             "variableId": "407ES0AI005E",
             "type": ""
           },
           {
             "id": "0AI005F",
-            "pos": { "l": 1043, "t": 215, "w": 80, "h": 20 },
+            "pos": { "l": 1033, "t": 215, "w": 70, "h": 20 },
             "variableId": "407ES0AI005F",
             "type": ""
           },
           {
             "id": "0AI005G",
-            "pos": { "l": 848, "t": 265, "w": 81, "h": 20 },
+            "pos": { "l": 838, "t": 265, "w": 70, "h": 20 },
             "variableId": "407ES0AI005G",
             "type": ""
           },
           {
             "id": "0AI005H",
-            "pos": { "l": 1043, "t": 267, "w": 77, "h": 20 },
+            "pos": { "l": 1033, "t": 267, "w": 70, "h": 20 },
             "variableId": "407ES0AI005H",
             "type": ""
           },
           {
             "id": "0LI009",
-            "pos": { "l": 667, "t": 788, "w": 72, "h": 20 },
+            "pos": { "l": 667, "t": 780, "w": 72, "h": 20 },
             "name": "0LI009",
             "variableId": "407ES0LI009B",
             "type": ""
           },
           {
             "id": "0LI028",
-            "pos": { "l": 1054, "t": 615, "w": 72, "h": 20 },
+            "pos": { "l": 1038, "t": 605, "w": 72, "h": 20 },
             "name": "0LI028",
             "variableId": "407ES0LI028",
             "type": ""
@@ -4003,39 +3983,39 @@
         "sliders": [
           {
             "id": "0SLI029",
-            "pos": { "l": 1015, "t": 531, "w": 15, "h": 80 },
+            "pos": { "l": 1000, "t": 531, "w": 15, "h": 80 },
             "variableId": "407ES0LI029",
             "color": "#03d204",
             "rotated": ""
           },
           {
             "id": "0SLI007",
-            "pos": { "l": 814, "t": 700, "w": 21, "h": 91 },
+            "pos": { "l": 804, "t": 700, "w": 21, "h": 91 },
             "variableId": "407ES0LIC007OP",
             "color": "#03d204",
             "rotated": ""
           },
           {
             "id": "0TIC014",
-            "pos": { "l": 223, "t": 227, "w": 24, "h": 10 },
+            "pos": { "l": 205, "t": 224, "w": 60, "h": 12 },
             "variableId": "407ES0TIC014OP",
             "rotated": "left"
           },
           {
             "id": "0LIC007",
-            "pos": { "l": 1020, "t": 888, "w": 24, "h": 10 },
+            "pos": { "l": 998, "t": 880, "w": 60, "h": 12 },
             "variableId": "407ES0LIC007OP",
             "rotated": "left"
           },
           {
             "id": "0LIC029",
-            "pos": { "l": 1261, "t": 709, "w": 24, "h": 10 },
+            "pos": { "l": 1248, "t": 706, "w": 60, "h": 12 },
             "variableId": "407ES0LI029",
             "rotated": "left"
           },
           {
             "id": "0PIC059",
-            "pos": { "l": 1470, "t": 333, "w": 24, "h": 10 },
+            "pos": { "l": 1433, "t": 330, "w": 60, "h": 12 },
             "variableId": "407ES0PIC059OP",
             "rotated": "left"
           }
@@ -4051,14 +4031,12 @@
         "height": 911,
         "imageUrl": "images/407-RGT5.png",
         "type": "plant",
-        "page": "CPR407-014",
-        "overview": false,
         "description": "Rich Solvent Flash Drum",
         "lines": [],
         "valves": [
           {
             "id": "0PIC060",
-            "pos": { "l": 1192, "t": 69.5, "w": 24, "h": 24 },
+            "pos": { "l": 1190, "t": 69.5, "w": 24, "h": 24 },
             "type": "controller",
             "rotated": "",
             "variableId": "407ES0PIC060OP"
@@ -4160,55 +4138,55 @@
         "indicators": [
           {
             "id": "0FI110",
-            "pos": { "l": 341, "t": 165.5, "w": 80, "h": 20 },
+            "pos": { "l": 340, "t": 165.5, "w": 80, "h": 20 },
             "variableId": "407ES0FI110",
             "type": ""
           },
           {
             "id": "0TI059",
-            "pos": { "l": 469, "t": 166.5, "w": 80, "h": 20 },
+            "pos": { "l": 466, "t": 166.5, "w": 80, "h": 20 },
             "variableId": "407ES0TI059",
             "type": ""
           },
           {
             "id": "0FI109",
-            "pos": { "l": 241, "t": 731.5, "w": 80, "h": 20 },
+            "pos": { "l": 238, "t": 731.5, "w": 80, "h": 20 },
             "variableId": "407ES0FI109",
             "type": ""
           },
           {
             "id": "0TI058",
-            "pos": { "l": 375, "t": 728.5, "w": 80, "h": 20 },
+            "pos": { "l": 374, "t": 728.5, "w": 80, "h": 20 },
             "variableId": "407ES0TI058",
             "type": ""
           },
           {
             "id": "0PI010",
-            "pos": { "l": 866, "t": 310.5, "w": 80, "h": 20 },
+            "pos": { "l": 863, "t": 310.5, "w": 80, "h": 20 },
             "variableId": "407ES0PI010",
             "type": ""
           },
           {
             "id": "0FI004",
-            "pos": { "l": 869, "t": 428.5, "w": 80, "h": 20 },
+            "pos": { "l": 866, "t": 428.5, "w": 80, "h": 20 },
             "variableId": "407ES0FI004",
             "type": ""
           },
           {
             "id": "0PIC063",
-            "pos": { "l": 1006, "t": 381.5, "w": 80, "h": 20 },
+            "pos": { "l": 1000, "t": 381.5, "w": 80, "h": 20 },
             "variableId": "407ES0PIC063",
             "type": "controller"
           },
           {
             "id": "0PIC007B",
-            "pos": { "l": 1005, "t": 237.5, "w": 80, "h": 20 },
+            "pos": { "l": 1000, "t": 237.5, "w": 80, "h": 20 },
             "variableId": "407ES0PIC007B",
             "type": "controller"
           },
           {
             "id": "0PIC060",
-            "pos": { "l": 1006, "t": 80.5, "w": 80, "h": 20 },
+            "pos": { "l": 1000, "t": 80.5, "w": 80, "h": 20 },
             "variableId": "407ES0PIC060",
             "type": "controller"
           },
@@ -4230,26 +4208,26 @@
         "sliders": [
           {
             "id": "0SLI011",
-            "pos": { "l": 1004, "t": 470.5, "w": 24, "h": 120 },
+            "pos": { "l":999, "t": 470.5, "w":24, "h": 110 },
             "color": "#03d204",
             "variableId": "407ES0LIC011BOP",
             "rotated": ""
           },
           {
             "id": "0PIC060",
-            "pos": { "l": 1205, "t": 114.5, "w": 24, "h": 10 },
+            "pos": { "l": 1188, "t": 114.5, "w": 60, "h": 12 },
             "variableId": "407ES0PIC060OP",
             "rotated": "left"
           },
           {
             "id": "0PIC007",
-            "pos": { "l": 1204, "t": 274.5, "w": 24, "h": 10 },
+            "pos": { "l": 1188, "t": 274.5, "w": 60, "h": 12 },
             "variableId": "407ES0PIC007OP",
             "rotated": "left"
           },
           {
             "id": "0PIC063",
-            "pos": { "l": 1204, "t": 415.5, "w": 24, "h": 10 },
+            "pos": { "l": 1188, "t": 415.5, "w": 60, "h": 12 },
             "variableId": "407ES0PIC063OP",
             "rotated": "left"
           }
@@ -4265,8 +4243,6 @@
         "height": 910,
         "imageUrl": "images/407-RGT6.png",
         "type": "plant",
-        "page": "CPR407-015",
-        "overview": false,
         "description": "Lean Solvent Cooler & Lean/Rich",
         "lines": [],
         "valves": [
@@ -4356,14 +4332,14 @@
         "indicators": [
           {
             "id": "0PI177",
-            "pos": { "l": 222, "t": 430.5, "w": 80, "h": 20 },
+            "pos": { "l": 218, "t": 430.5, "w": 80, "h": 20 },
             "name": "0PI177",
             "variableId": "407ES0PI177",
             "type": ""
           },
           {
             "id": "0TI133",
-            "pos": { "l": 222, "t": 488.5, "w": 80, "h": 20 },
+            "pos": { "l": 218, "t": 488.5, "w": 80, "h": 20 },
             "name": "0TI133",
             "variableId": "407ES0TI133",
             "type": ""
@@ -4384,49 +4360,49 @@
           },
           {
             "id": "0TI134",
-            "pos": { "l": 182, "t": 812.5, "w": 80, "h": 20 },
+            "pos": { "l": 178, "t": 815.5, "w": 80, "h": 20 },
             "name": "0TI134",
             "variableId": "407ES0TI134",
             "type": ""
           },
           {
             "id": "0PI053",
-            "pos": { "l": 310, "t": 815.5, "w": 80, "h": 20 },
+            "pos": { "l": 305, "t": 815.5, "w": 80, "h": 20 },
             "name": "0PI053",
             "variableId": "407ES0PI053",
             "type": ""
           },
           {
             "id": "0TI135",
-            "pos": { "l": 885, "t": 508.5, "w": 80, "h": 20 },
+            "pos": { "l": 770, "t": 514.5, "w": 80, "h": 20 },
             "name": "0TI135",
             "variableId": "407ES0TI135",
             "type": ""
           },
           {
-            "id": "0PI178",
-            "pos": { "l": 984, "t": 508.5, "w": 80, "h": 20 },
+            "id": "0PI170",
+            "pos": { "l": 900, "t": 514.5, "w": 80, "h": 20 },
             "name": "0PI178",
             "variableId": "407ES0PI178",
             "type": ""
           },
           {
             "id": "0FI011",
-            "pos": { "l": 1195, "t": 684.5, "w": 80, "h": 20 },
+            "pos": { "l": 1190, "t": 685.5, "w": 80, "h": 20 },
             "name": "0FI011",
             "variableId": "407ES0FI011",
             "type": ""
           },
           {
             "id": "0TI136",
-            "pos": { "l": 911, "t": 814.5, "w": 80, "h": 20 },
+            "pos": { "l": 911, "t": 815.5, "w": 80, "h": 20 },
             "name": "0TI136",
             "variableId": "407ES0TI136",
             "type": ""
           },
           {
             "id": "0PI179",
-            "pos": { "l": 1166, "t": 812.5, "w": 80, "h": 20 },
+            "pos": { "l": 1160, "t": 815.5, "w": 80, "h": 20 },
             "name": "0PI179",
             "variableId": "407ES0PI179",
             "type": ""
@@ -4437,19 +4413,19 @@
         "sliders": [
           {
             "id": "0TIC100",
-            "pos": { "l": 202, "t": 292.5, "w": 24, "h": 10 },
+            "pos": { "l": 187, "t": 292.5, "w": 60, "h": 12 },
             "variableId": "407ES0TIC100OP",
             "rotated": "left"
           },
           {
             "id": "0LIC012",
-            "pos": { "l": 1080, "t": 148.5, "w": 24, "h": 10 },
+            "pos": { "l": 1065, "t": 148.5, "w": 60, "h": 12 },
             "variableId": "407ES0LIC012OP",
             "rotated": "left"
           },
           {
             "id": "0LIC011",
-            "pos": { "l": 1293, "t": 545.5, "w": 24, "h": 10 },
+            "pos": { "l": 1278, "t": 545.5, "w": 60, "h": 12 },
             "variableId": "407ES0LIC011OP",
             "rotated": "left"
           }
@@ -4465,8 +4441,6 @@
         "height": 913,
         "imageUrl": "images/407-RGT7.png",
         "type": "plant",
-        "overview": false,
-        "page": "CPR407-016",
         "description": "Solvent Generator",
         "lines": [],
         "valves": [
@@ -4480,7 +4454,7 @@
           },
           {
             "id": "0EV027",
-            "pos": { "l": 290, "t": 807.5, "w": 24, "h": 24 },
+            "pos": { "l": 287, "t": 797.5, "w": 24, "h": 24 },
             "name": "0EV027",
             "type": "sdv",
             "rotated": "",
@@ -4488,7 +4462,7 @@
           },
           {
             "id": "0FIC015",
-            "pos": { "l": 948, "t": 533.5, "w": 24, "h": 24 },
+            "pos": { "l": 938, "t": 525.5, "w": 24, "h": 24 },
             "name": "0FIC015",
             "type": "controller",
             "rotated": "",
@@ -4496,7 +4470,7 @@
           },
           {
             "id": "0TIC064",
-            "pos": { "l": 910, "t": 346.5, "w": 24, "h": 24 },
+            "pos": { "l": 900, "t": 340.5, "w": 24, "h": 24 },
             "name": "0TIC064",
             "type": "controller",
             "rotated": "",
@@ -4504,7 +4478,7 @@
           },
           {
             "id": "0PIC181",
-            "pos": { "l": 1455, "t": 533.5, "w": 24, "h": 24 },
+            "pos": { "l": 1435, "t": 525.5, "w": 24, "h": 24 },
             "name": "0PIC181",
             "type": "controller",
             "rotated": "",
@@ -4573,89 +4547,89 @@
           },
           {
             "id": "0TIC015",
-            "pos": { "l": 447, "t": 196.5, "w": 80, "h": 20 },
+            "pos": { "l": 440, "t": 196.5, "w": 80, "h": 20 },
             "variableId": "407ES0TIC015",
             "namePos": "N",
             "type": "controller"
           },
           {
             "id": "0PDI004",
-            "pos": { "l": 516, "t": 410.5, "w": 80, "h": 20 },
+            "pos": { "l": 500, "t": 400.5, "w": 80, "h": 20 },
             "variableId": "407ES0PDI004",
             "type": ""
           },
           {
             "id": "0TI062",
-            "pos": { "l": 541, "t": 504.5, "w": 80, "h": 20 },
+            "pos": { "l": 518, "t": 498.5, "w": 80, "h": 20 },
             "variableId": "407ES0TI062",
             "type": ""
           },
           {
             "id": "0TIC064",
-            "pos": { "l": 697, "t": 554.5, "w": 80, "h": 20 },
+            "pos": { "l": 686, "t": 550.5, "w": 80, "h": 20 },
             "variableId": "407ES0TIC064",
             "namePos": "N",
             "type": "controller"
           },
           {
             "id": "0PI070",
-            "pos": { "l": 697, "t": 594.5, "w": 80, "h": 20 },
+            "pos": { "l": 675, "t": 583.5, "w": 80, "h": 20 },
             "namePos": "N",
             "variableId": "407ES0PI070",
             "type": ""
           },
           {
             "id": "0TI063",
-            "pos": { "l": 450, "t": 731.5, "w": 80, "h": 20 },
+            "pos": { "l": 532, "t": 746.5, "w": 80, "h": 20 },
             "variableId": "407ES0TI063",
             "type": ""
           },
           {
             "id": "0LI013",
-            "pos": { "l": 450, "t": 761.5, "w": 80, "h": 20 },
+            "pos": { "l": 410, "t": 750.5, "w": 80, "h": 20 },
             "name": "0LI013",
             "variableId": "407ES0LI013",
             "type": ""
           },
           {
             "id": "0TI010",
-            "pos": { "l": 548, "t": 820.5, "w": 80, "h": 20 },
+            "pos": { "l": 532, "t": 803.5, "w": 80, "h": 20 },
             "variableId": "407ES0TI010",
             "type": ""
           },
           {
             "id": "0LIC012",
-            "pos": { "l": 306, "t": 679.5, "w": 80, "h": 20 },
+            "pos": { "l": 300, "t": 675.5, "w": 80, "h": 20 },
             "variableId": "407ES0LIC012",
             "type": ""
           },
           {
             "id": "0FIC015",
-            "pos": { "l": 1011, "t": 480.5, "w": 80, "h": 20 },
+            "pos": { "l":980, "t": 480.5, "w": 80, "h": 20 },
             "variableId": "407ES0FIC015",
             "type": "controller"
           },
           {
             "id": "0FI015",
-            "pos": { "l": 1100, "t": 546.5, "w": 80, "h": 20 },
+            "pos": { "l": 1080, "t": 536.5, "w": 80, "h": 20 },
             "variableId": "407ES0FI015",
             "type": ""
           },
           {
             "id": "0TI219",
-            "pos": { "l": 1212, "t": 544.5, "w": 80, "h": 20 },
+            "pos": { "l": 1196, "t": 536.5, "w": 70, "h": 20 },
             "variableId": "407ES0TI219",
             "type": ""
           },
           {
             "id": "0PIC181",
-            "pos": { "l": 1376, "t": 483.5, "w": 80, "h": 20 },
+            "pos": { "l": 1350, "t": 483.5, "w": 80, "h": 20 },
             "variableId": "407ES0PIC181",
             "type": "controller"
           },
           {
             "id": "0PI065",
-            "pos": { "l": 1244, "t": 104.5, "w": 80, "h": 20 },
+            "pos": { "l": 1234, "t": 100.5, "w": 80, "h": 20 },
             "variableId": "407ES0PI065",
             "type": ""
           }
@@ -4665,33 +4639,33 @@
         "sliders": [
           {
             "id": "0SLI012",
-            "pos": { "l": 400, "t": 680.5, "w": 21, "h": 99 },
+            "pos": { "l": 390, "t": 620.5, "w": 21, "h": 90 },
             "variableId": "407ES0LIC012OP",
             "color": "#03d204",
             "rotated": ""
           },
           {
             "id": "0PIC064",
-            "pos": { "l": 273, "t": 81.5, "w": 24, "h": 10 },
+            "pos": { "l": 258, "t": 81.5, "w": 60, "h": 12 },
             "variableId": "407ES0PIC064OP",
             "rotated": "left"
           },
 
           {
             "id": "0FIC015",
-            "pos": { "l": 961, "t": 578.5, "w": 24, "h": 10 },
+            "pos": { "l": 936, "t": 573.5, "w": 60, "h": 12 },
             "variableId": "407ES0FIC015OP",
             "rotated": "left"
           },
           {
             "id": "0TIC064",
-            "pos": { "l": 923, "t": 391.5, "w": 24, "h": 10 },
             "variableId": "407ES0TIC064OP",
+            "pos": { "l": 898, "t": 387.5, "w": 60, "h": 12 },
             "rotated": "left"
           },
           {
             "id": "0PIC181",
-            "pos": { "l": 1468, "t": 578.5, "w": 24, "h": 10 },
+            "pos": { "l": 1434, "t": 570.5, "w": 60, "h": 12 },
             "variableId": "407ES0TIC064OP",
             "rotated": "left"
           }
@@ -4706,8 +4680,6 @@
         "width": 1690,
         "height": 921,
         "imageUrl": "images/407-RGT8.png",
-        "overview": false,
-        "page": "CPR407-017",
         "description": "Solvent Reflux System",
         "type": "plant",
         "lines": [],
@@ -4762,7 +4734,7 @@
           },
           {
             "id": "0BPZIC038",
-            "pos": { "l": 1324, "t": 219, "w": 24, "h": 24 },
+            "pos": { "l": 1324, "t": 224, "w": 24, "h": 24 },
             "name": "0BPZIC038",
             "type": "bps",
             "rotated": "",
@@ -4836,70 +4808,70 @@
         "indicators": [
           {
             "id": "0FI158",
-            "pos": { "l": 227, "t": 620, "w": 80, "h": 20 },
+            "pos": { "l": 224, "t": 622, "w": 80, "h": 20 },
             "variableId": "407ES0FI158",
             "name": "0FI158",
             "type": ""
           },
           {
             "id": "0FI037",
-            "pos": { "l": 482, "t": 752, "w": 80, "h": 20 },
+            "pos": { "l": 478, "t": 754, "w": 80, "h": 20 },
             "variableId": "407ES0FI037",
             "name": "0FI037",
             "type": ""
           },
           {
             "id": "0LIC037",
-            "pos": { "l": 718, "t": 488, "w": 80, "h": 20 },
+            "pos": { "l": 713, "t": 490, "w": 80, "h": 20 },
             "variableId": "407ES0LIC037",
             "name": "0LIC037",
             "type": "controller"
           },
           {
             "id": "0LI023",
-            "pos": { "l": 718, "t": 427, "w": 80, "h": 20 },
+            "pos": { "l": 713, "t": 429, "w": 80, "h": 20 },
             "variableId": "407ES0LI023",
             "name": "0LI023",
             "type": ""
           },
           {
             "id": "0TIC034",
-            "pos": { "l": 772, "t": 279, "w": 80, "h": 20 },
+            "pos": { "l": 772, "t": 284, "w": 80, "h": 20 },
             "variableId": "407ES0TIC034",
             "name": "0TIC034",
             "type": "controller"
           },
           {
             "id": "0FI020",
-            "pos": { "l": 885, "t": 134, "w": 80, "h": 20 },
+            "pos": { "l": 885, "t": 136, "w": 80, "h": 20 },
             "variableId": "407ES0FI020",
             "name": "0FI020",
             "type": ""
           },
           {
             "id": "0TI035",
-            "pos": { "l": 1002, "t": 132, "w": 80, "h": 20 },
+            "pos": { "l": 1002, "t": 136, "w": 80, "h": 20 },
             "variableId": "407ES0TI035",
             "name": "0TI035",
             "type": ""
           },
           {
             "id": "0PIC001",
-            "pos": { "l": 884, "t": 50, "w": 80, "h": 20 },
+            "pos": { "l": 880, "t": 52, "w": 80, "h": 20 },
             "variableId": "407ES0PIC001",
             "name": "0PIC001",
             "type": "controller"
           },
           {
             "id": "0PIC075",
-            "pos": { "l": 1019, "t": 276, "w": 80, "h": 20 },
+            "pos": { "l": 1016, "t": 278, "w": 80, "h": 20 },
             "variableId": "407ES0PIC075",
             "name": "0PIC075",
             "type": "controller"
           },
           {
             "id": "0FI043A",
-            "pos": { "l": 773, "t": 739, "w": 80, "h": 20 },
+            "pos": { "l": 768, "t": 741, "w": 80, "h": 20 },
             "variableId": "407ES0FI043A",
             "name": "0FI043A",
             "type": ""
@@ -4917,19 +4889,19 @@
           },
           {
             "id": "0TIC034",
-            "pos": { "l": 190, "t": 102, "w": 24, "h": 10 },
+            "pos": { "l": 175, "t": 102, "w": 60, "h":12 },
             "variableId": "407ES0TIC034OP",
             "rotated": "left"
           },
           {
             "id": "0LIC037",
-            "pos": { "l": 389, "t": 787, "w": 24, "h": 10 },
+            "pos": { "l": 374, "t": 787, "w": 60, "h":12 },
             "variableId": "407ES0LIC037OP",
             "rotated": "left"
           },
           {
             "id": "0PIC001",
-            "pos": { "l": 1157, "t": 172, "w": 24, "h": 10 },
+            "pos": { "l": 1141, "t": 172, "w": 60, "h": 12 },
             "variableId": "407ES0PIC001OP",
             "rotated": "left"
           },
@@ -4956,8 +4928,6 @@
         "height": 908,
         "imageUrl": "images/407-RGT9.png",
         "type": "plant",
-        "overview": false,
-        "page": "CPR407-018",
         "description": "Lean Solvent Surge Tank",
         "lines": [],
         "valves": [],
@@ -5017,28 +4987,28 @@
         "indicators": [
           {
             "id": "0FI008",
-            "pos": { "l": 260, "t": 610.5, "w": 80, "h": 20 },
+            "pos": { "l": 258, "t": 610.5, "w": 80, "h": 20 },
             "name": "0FI008",
             "variableId": "407ES0FI008",
             "type": ""
           },
           {
             "id": "0LI014",
-            "pos": { "l": 757, "t": 547.5, "w": 80, "h": 20 },
+            "pos": { "l": 755, "t": 547.5, "w": 80, "h": 20 },
             "name": "0LI014",
             "variableId": "407ES0LI014",
             "type": ""
           },
           {
             "id": "0LI080",
-            "pos": { "l": 759, "t": 589.5, "w": 80, "h": 20 },
+            "pos": { "l": 755, "t": 589.5, "w": 80, "h": 20 },
             "name": "0LI080",
             "variableId": "407ES0LI080",
             "type": ""
           },
           {
             "id": "TK407003H",
-            "pos": { "l": 1068, "t": 203, "w": 80, "h": 20 },
+            "pos": { "l": 1200, "t": 190, "w": 80, "h": 20 },
             "name": "Height",
             "namePos": "NE",
             "variableId": "407ESTK407003H",
@@ -5046,7 +5016,7 @@
           },
           {
             "id": "TK407003V",
-            "pos": { "l": 1068, "t": 240, "w": 90, "h": 20 },
+            "pos": { "l": 1196, "t": 260, "w": 90, "h": 20 },
             "name": "Volume",
             "namePos": "NE",
             "variableId": "407ESTK407003V",
@@ -5074,8 +5044,6 @@
         "height": 916,
         "imageUrl": "images/407-RGT10.png",
         "type": "plant",
-        "overview": false,
-        "page": "CPR407-019",
         "description": "Steam Condensate System",
         "lines": [],
         "valves": [
@@ -5109,14 +5077,14 @@
         "indicators": [
           {
             "id": "0LIC015",
-            "pos": { "l": 790, "t": 516.5, "w": 80, "h": 20 },
+            "pos": { "l": 785, "t": 521.5, "w": 80, "h": 20 },
             "name": "0LIC015",
             "variableId": "407ES0LIC015",
             "type": "controller"
           },
           {
             "id": "0LI127",
-            "pos": { "l": 788, "t": 565.5, "w": 80, "h": 20 },
+            "pos": { "l": 785, "t": 565.5, "w": 80, "h": 20 },
             "name": "LI0127",
             "variableId": "407ES0LI127",
             "type": ""
@@ -5134,7 +5102,7 @@
           },
           {
             "id": "0LIC015",
-            "pos": { "l": 1096, "t": 630.5, "w": 24, "h": 10 },
+            "pos": { "l": 1080, "t": 630.5, "w":60, "h": 12 },
             "variableId": "407ES0LIC015OP",
             "rotated": "left"
           }
@@ -5150,21 +5118,19 @@
         "height": 793,
         "imageUrl": "images/407ED2.png",
         "type": "plant",
-        "page": "CPR407-024",
-        "overview": false,
         "description": "Ethane Product Dehydration",
         "lines": [],
         "valves": [
           {
             "id": "0KV018C",
-            "pos": { "l": 325.5, "t": 141.5, "w": 24, "h": 24 },
+            "pos": { "l": 325.5, "t": 126.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV018C",
             "rotated": ""
           },
           {
             "id": "0KV031C",
-            "pos": { "l": 407.5, "t": 103.5, "w": 24, "h": 24 },
+            "pos": { "l": 400.5, "t": 103.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV031C",
@@ -5172,21 +5138,21 @@
           },
           {
             "id": "0KV017C",
-            "pos": { "l": 504.5, "t": 129.5, "w": 24, "h": 24 },
+            "pos": { "l": 504.5, "t": 114.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV017C",
             "rotated": ""
           },
           {
             "id": "0KV018B",
-            "pos": { "l": 702.5, "t": 102.5, "w": 24, "h": 24 },
+            "pos": { "l": 702.5, "t": 87.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV018B",
             "rotated": ""
           },
           {
             "id": "0KV031B",
-            "pos": { "l": 781.5, "t": 65.5, "w": 24, "h": 24 },
+            "pos": { "l": 780.5, "t": 65.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV031B",
@@ -5194,21 +5160,21 @@
           },
           {
             "id": "0KV017B",
-            "pos": { "l": 878.5, "t": 89.5, "w": 24, "h": 24 },
+            "pos": { "l": 878.5, "t": 74.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV017B",
             "rotated": ""
           },
           {
             "id": "0KV018A",
-            "pos": { "l": 1070.5, "t": 100.5, "w": 24, "h": 24 },
+            "pos": { "l": 1070.5, "t": 85.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV018A",
             "rotated": ""
           },
           {
             "id": "0KV031A",
-            "pos": { "l": 1154.5, "t": 66.5, "w": 24, "h": 24 },
+            "pos": { "l": 1159.5, "t": 66.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV031A",
@@ -5216,7 +5182,7 @@
           },
           {
             "id": "0KV017A",
-            "pos": { "l": 1258.5, "t": 90.5, "w": 24, "h": 24 },
+            "pos": { "l": 1258.5, "t": 75.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV017A",
             "rotated": ""
@@ -5231,7 +5197,7 @@
           },
           {
             "id": "0KV028C",
-            "pos": { "l": 576.5, "t": 276.5, "w": 24, "h": 24 },
+            "pos": { "l": 574.5, "t": 276.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV028C",
@@ -5239,7 +5205,7 @@
           },
           {
             "id": "0KV028B",
-            "pos": { "l": 951.5, "t": 275.5, "w": 24, "h": 24 },
+            "pos": { "l": 955.5, "t": 275.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV028B",
@@ -5247,7 +5213,7 @@
           },
           {
             "id": "0KV028A",
-            "pos": { "l": 1324.5, "t": 277.5, "w": 24, "h": 24 },
+            "pos": { "l": 1338.5, "t": 277.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV028A",
@@ -5255,7 +5221,7 @@
           },
           {
             "id": "0KV026C",
-            "pos": { "l": 225.5, "t": 520.5, "w": 24, "h": 24 },
+            "pos": { "l": 215.5, "t": 520.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV026C",
@@ -5270,7 +5236,7 @@
           },
           {
             "id": "0KV026B",
-            "pos": { "l": 600.5, "t": 523.5, "w": 24, "h": 24 },
+            "pos": { "l": 595.5, "t": 523.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV026B",
@@ -5278,7 +5244,7 @@
           },
           {
             "id": "0KV029B",
-            "pos": { "l": 806.5, "t": 570.5, "w": 24, "h": 24 },
+            "pos": { "l": 806.5, "t": 567.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV029B",
             "rotated": ""
@@ -5292,7 +5258,7 @@
           },
           {
             "id": "0KV026A",
-            "pos": { "l": 973.5, "t": 522.5, "w": 24, "h": 24 },
+            "pos": { "l": 977.5, "t": 522.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV026A",
@@ -5300,7 +5266,7 @@
           },
           {
             "id": "0KV029A",
-            "pos": { "l": 1147.5, "t": 569.5, "w": 24, "h": 24 },
+            "pos": { "l": 1173.5, "t": 569.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV029A",
             "rotated": ""
@@ -5321,21 +5287,21 @@
           },
           {
             "id": "0KV019A",
-            "pos": { "l": 1456.5, "t": 599.5, "w": 24, "h": 24 },
+            "pos": { "l": 1476.5, "t": 599.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV019A",
             "rotated": ""
           },
           {
             "id": "0KV019B",
-            "pos": { "l": 1456.5, "t": 404.5, "w": 24, "h": 24 },
+            "pos": { "l": 1476.5, "t": 404.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "407ED0KV019B",
             "rotated": ""
           },
           {
             "id": "0KV027C",
-            "pos": { "l": 319.5, "t": 695.5, "w": 24, "h": 24 },
+            "pos": { "l": 326.5, "t": 695.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV027C",
@@ -5358,7 +5324,7 @@
           },
           {
             "id": "0KV027A",
-            "pos": { "l": 1067.5, "t": 696.5, "w": 24, "h": 24 },
+            "pos": { "l": 1070.5, "t": 696.5, "w": 24, "h": 24 },
             "rotated": "left",
             "type": "sdv",
             "variableId": "407ED0KV027A",
@@ -5422,110 +5388,116 @@
           },
           {
             "id": "0PI005",
-            "pos": { "l": 430.5, "t": 183.5, "w": 80, "h": 20 },
+            "pos": { "l": 445.5, "t": 185.5, "w": 80, "h": 20 },
             "variableId": "407ED0PI005",
             "type": ""
           },
           {
             "id": "0TI041C",
-            "pos": { "l": 430.5, "t": 219.5, "w": 80, "h": 20 },
+            "pos": { "l": 445.5, "t": 230.5, "w": 80, "h": 20 },
             "variableId": "407ED0TI041C",
             "type": ""
           },
           {
             "id": "0PDI009C",
-            "pos": { "l": 480.5, "t": 341.5, "w": 80, "h": 20 },
+            "pos": { "l": 488.5, "t": 350.5, "w": 80, "h": 20 },
             "variableId": "407ED0PDI009C",
             "type": ""
           },
           {
             "id": "0TI040C",
-            "pos": { "l": 345.5, "t": 503.5, "w": 80, "h": 20 },
+            "pos": { "l": 350.5, "t": 514.5, "w": 80, "h": 20 },
             "variableId": "407ED0TI040C",
             "type": ""
           },
           {
             "id": "0AI002C",
-            "pos": { "l": 343.5, "t": 738.5, "w": 80, "h": 20 },
+            "pos": { "l": 350.5, "t": 754.5, "w": 80, "h": 20 },
             "variableId": "407ED0AI002C",
             "type": ""
           },
           {
             "id": "0AI002B",
-            "pos": { "l": 719.5, "t": 738.5, "w": 80, "h": 20 },
+            "pos": { "l": 735.5, "t": 754.5, "w": 80, "h": 20 },
             "variableId": "407ED0AI002B",
             "type": ""
           },
           {
             "id": "0AI002A",
-            "pos": { "l": 1088.5, "t": 736.5, "w": 80, "h": 20 },
+            "pos": { "l": 1115.5, "t": 754.5, "w": 80, "h": 20 },
             "variableId": "407ED0AI002A",
             "type": ""
           },
           {
             "id": "0PI248",
-            "pos": { "l": 803.5, "t": 181.5, "w": 80, "h": 20 },
+            "pos": { "l": 820.5, "t": 185.5, "w": 80, "h": 20 },
             "variableId": "407ED0PI248",
             "type": ""
           },
           {
             "id": "0TI041B",
-            "pos": { "l": 805.5, "t": 222.5, "w": 80, "h": 20 },
+            "pos": { "l": 820.5, "t": 225.5, "w": 80, "h": 20 },
             "variableId": "407ED0TI041B",
             "type": ""
           },
           {
             "id": "0PI002",
-            "pos": { "l": 1177.5, "t": 182.5, "w": 80, "h": 20 },
+            "pos": { "l": 1200.5, "t": 185.5, "w": 80, "h": 20 },
             "variableId": "407ED0PI002",
             "type": ""
           },
           {
             "id": "0TI041A",
-            "pos": { "l": 1180.5, "t": 220.5, "w": 80, "h": 20 },
+            "pos": { "l": 1200.5, "t": 225.5, "w": 80, "h": 20 },
             "variableId": "407ED0TI041A",
             "type": ""
           },
           {
             "id": "0PDI009B",
-            "pos": { "l": 855.5, "t": 342.5, "w": 80, "h": 20 },
+            "pos": { "l": 870.5, "t": 350.5, "w": 80, "h": 20 },
             "variableId": "407ED0PDI009B",
             "type": ""
           },
           {
             "id": "0PDI009A",
-            "pos": { "l": 1228.5, "t": 341.5, "w": 80, "h": 20 },
+            "pos": { "l": 1255.5, "t": 350.5, "w": 80, "h": 20 },
             "variableId": "407ED0PDI009A",
             "type": ""
           },
           {
             "id": "0TI040B",
-            "pos": { "l": 719.5, "t": 504.5, "w": 80, "h": 20 },
+            "pos": { "l": 733.5, "t": 514.5, "w": 80, "h": 20 },
             "variableId": "407ED0TI040B",
             "type": ""
           },
           {
             "id": "0TI040A",
-            "pos": { "l": 1091.5, "t": 502.5, "w": 80, "h": 20 },
+            "pos": { "l": 1114.5, "t": 514.5, "w": 80, "h": 20 },
             "variableId": "407ED0TI040A",
             "type": ""
           },
           {
             "id": "0FIC031",
-            "pos": { "l": 1317.5, "t": 469.5, "w": 80, "h": 20 },
+            "pos": { "l": 1340.5, "t": 480.5, "w": 80, "h": 20 },
             "variableId": "407ED0FIC031",
             "type": "controller"
           },
           {
             "id": "0FI031",
-            "pos": { "l": 1315.5, "t": 534.5, "w": 80, "h": 20 },
+            "pos": { "l": 1340.5, "t": 530.5, "w": 80, "h": 20 },
             "variableId": "407ED0FI031",
             "type": ""
           },
           {
             "id": "0PI216",
-            "pos": { "l": 1317.5, "t": 578.5, "w": 80, "h": 20 },
+            "pos": { "l": 1340.5, "t": 570.5, "w": 80, "h": 20 },
             "variableId": "407ED0PI216",
+            "type": ""
+          },
+          {
+            "id": "0TI163",
+            "pos": { "l": 1340.5, "t": 605.5, "w": 80, "h": 20 },
+            "variableId": "407ED0TI163",
             "type": ""
           }
         ],
@@ -5550,8 +5522,6 @@
         "height": 839,
         "imageUrl": "images/407ED3.png",
         "type": "plant",
-        "overview": false,
-        "page": "CPR407-025",
         "description": "Ethane Arsenic Removal Vessel",
         "lines": [],
         "valves": [],
@@ -5571,31 +5541,31 @@
         "indicators": [
           {
             "id": "0PDI282A",
-            "pos": { "l": 525.5, "t": 240.5, "w": 80, "h": 20 },
+            "pos": { "l": 585.5, "t": 267.5, "w": 80, "h": 20 },
             "variableId": "407ED0PDI282A",
             "type": ""
           },
           {
             "id": "0PDI282B",
-            "pos": { "l": 524.5, "t": 466.5, "w": 80, "h": 20 },
+            "pos": { "l": 585.5, "t": 519.5, "w": 80, "h": 20 },
             "variableId": "407ED0PDI282A",
             "type": ""
           },
           {
             "id": "0TI212",
-            "pos": { "l": 1108.5, "t": 570.5, "w": 80, "h": 20 },
+            "pos": { "l": 1230.5, "t": 636.5, "w": 80, "h": 20 },
             "variableId": "407ED0TI212",
             "type": ""
           },
           {
             "id": "PDI306",
-            "pos": { "l": 1048.5, "t": 443.5, "w": 80, "h": 20 },
+            "pos": { "l": 1163.5, "t": 493.5, "w": 80, "h": 20 },
             "variableId": "407EDPDI306",
             "type": ""
           },
           {
             "id": "0TI211",
-            "pos": { "l": 981.5, "t": 316.5, "w": 80, "h": 20 },
+            "pos": { "l": 1085.5, "t": 353.5, "w": 80, "h": 20 },
             "variableId": "407ED0TI211",
             "type": ""
           }
@@ -5614,56 +5584,54 @@
         "height": 714,
         "imageUrl": "images/407ED4.png",
         "type": "plant",
-        "page": "CPR407-026",
-        "overview": false,
         "description": "Ethane Product Particle Filter F-407-001",
         "lines": [],
         "valves": [
           {
             "id": "0EV021",
-            "pos": { "l": 943.5, "t": 109, "w": 24, "h": 24 },
+            "pos": { "l": 1040.5, "t": 105, "w": 24, "h": 24 },
             "type": "sdv",
             "rotated": "",
             "variableId": "407ED0EV021"
           },
           {
             "id": "0BV020",
-            "pos": { "l": 932.5, "t": 163, "w": 24, "h": 24 },
+            "pos": { "l": 1040.5, "t": 183, "w": 24, "h": 24 },
             "type": "sdv",
             "rotated": "",
             "variableId": "407ED0BP020"
           },
           {
             "id": "0PV015",
-            "pos": { "l": 895.5, "t": 373, "w": 24, "h": 24 },
+            "pos": { "l": 995.5, "t": 417, "w": 24, "h": 24 },
             "type": "controller",
             "rotated": "",
             "variableId": "407ED0PIC015AOP"
           },
           {
             "id": "0EV012",
-            "pos": { "l": 1178.5, "t": 373, "w": 24, "h": 24 },
+            "pos": { "l": 1312.5, "t": 411, "w": 24, "h": 24 },
             "type": "sdv",
             "rotated": "",
             "variableId": "407ED0EV012"
           },
           {
             "id": "0BPZIC012",
-            "pos": { "l": 1179.5, "t": 448, "w": 24, "h": 24 },
+            "pos": { "l": 1312.5, "t": 500, "w": 24, "h": 24 },
             "type": "bps",
             "rotated": "",
             "variableId": "407ED0BPZIC012"
           },
           {
             "id": "0EV011",
-            "pos": { "l": 1176.5, "t": 591, "w": 24, "h": 24 },
+            "pos": { "l": 1312.5, "t": 653, "w": 24, "h": 24 },
             "type": "sdv",
             "rotated": "",
             "variableId": "407ED0EV011"
           },
           {
             "id": "0PV283",
-            "pos": { "l": 890.5, "t": 585, "w": 24, "h": 24 },
+            "pos": { "l": 995.5, "t": 655, "w": 24, "h": 24 },
             "type": "controller",
             "namePos": "N",
             "rotated": "",
@@ -5671,7 +5639,7 @@
           },
           {
             "id": "0BPZIC011",
-            "pos": { "l": 1176.5, "t": 660, "w": 24, "h": 24 },
+            "pos": { "l": 1314.5, "t": 732, "w": 24, "h": 24 },
             "type": "bps",
             "rotated": "",
             "variableId": "407ED0BPZIC011"
@@ -5727,39 +5695,52 @@
         ],
         "indicators": [
           {
-            "id": "0PDI258",
-            "pos": { "l": 446.5, "t": 240, "w": 80, "h": 20 },
-            "variableId": "407ED0PDI258",
+            "id": "0PDI256",
+            "pos": { "l": 492.5, "t": 263, "w": 80, "h": 20 },
+            "variableId": "407ED0PDI256",
             "type": ""
           },
           {
             "id": "0PIC015A",
-            "pos": { "l": 750.5, "t": 380, "w": 80, "h": 20 },
+            "pos": { "l": 830.5, "t": 423, "w": 80, "h": 20 },
             "variableId": "407ED0PIC015A",
             "type": "controller"
           },
           {
             "id": "0PIC283A",
-            "pos": { "l": 751.5, "t": 595, "w": 80, "h": 20 },
-            "variableId": "407ED0PIC283A",
+            "pos": { "l": 830.5, "t":423, "w": 80, "h": 20 },
+            "variableId": "407ED0PIC283AOP",
             "type": "controller"
           },
           {
             "id": "0PIC283B",
-            "pos": { "l": 1001.5, "t": 595, "w": 80, "h": 20 },
+            "pos": { "l": 1102.5, "t": 657, "w": 80, "h": 20 },
             "variableId": "407ED0PIC283B",
             "type": "controller"
           },
           {
             "id": "0PIC017",
-            "pos": { "l": 1003.5, "t": 380, "w": 80, "h": 20 },
+            "pos": { "l": 1102.5, "t": 657, "w": 80, "h": 20 },
             "variableId": "407ED0PIC017",
             "type": "controller"
           }
         ],
         "alarms": [],
         "flares": [],
-        "sliders": [],
+        "sliders": [
+          {
+            "id": "0PV015",
+            "pos": { "l": 993.5, "t": 450, "w": 60, "h": 12 },
+            "rotated": "left",
+            "variableId": "407ED0PIC015AOP"
+          },
+          {
+            "id": "0PV283",
+            "pos": { "l": 993.5, "t": 688, "w": 60, "h": 12 },
+            "rotated": "left",
+            "variableId": "407ED0PIC283AOP"
+          }
+        ],
         "esds": [],
         "logics": []
       },
@@ -5770,9 +5751,7 @@
         "width": 1663,
         "height": 818,
         "imageUrl": "images/403G-3.png",
-        "overview": false,
         "type": "plant",
-        "page": "CPR403-001",
         "description": "Regen Gas Comp, Suc, Scrubber",
         "lines": [],
         "valves": [
@@ -5786,13 +5765,13 @@
           {
             "id": "0BPZIC016",
             "pos": { "l": 375.5, "t": 387, "w": 24, "h": 24 },
-            "type": "sdv",
+            "type": "bps",
             "variableId": "0BPZIC016",
             "rotated": ""
           },
           {
             "id": "0LIC016",
-            "pos": { "l": 1065.5, "t": 613, "w": 24, "h": 24 },
+            "pos": { "l": 1072.5, "t": 613, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0LIC016OP",
             "rotated": ""
@@ -5854,13 +5833,13 @@
           },
           {
             "id": "0PDI016",
-            "pos": { "l": 367.5, "t": 481, "w": 80, "h": 20 },
+            "pos": { "l": 365.5, "t": 485, "w": 80, "h": 20 },
             "variableId": "403GL0PDI016",
             "type": ""
           },
           {
             "id": "0PI070",
-            "pos": { "l": 520.5, "t": 333, "w": 80, "h": 20 },
+            "pos": { "l": 525.5, "t": 333, "w": 80, "h": 20 },
             "namePos": "N",
             "variableId": "403GL0PI070",
             "type": ""
@@ -5880,7 +5859,7 @@
           },
           {
             "id": "0LI016",
-            "pos": { "l": 872.5, "t": 446, "w": 80, "h": 20 },
+            "pos": { "l": 866.5, "t": 455, "w": 80, "h": 20 },
             "variableId": "403GL0LIC016PV",
             "type": "controller"
           },
@@ -5903,7 +5882,7 @@
           },
           {
             "id": "0LIC016",
-            "pos": { "l": 1079.5, "t": 658, "w": 24, "h": 10 },
+            "pos": { "l": 1070.5, "t": 658, "w": 60, "h": 12 },
             "variableId": "403GL0LIC016OP",
             "rotated": "left"
           }
@@ -5918,9 +5897,7 @@
         "width": 1662,
         "height": 903,
         "imageUrl": "images/403G-4.png",
-        "overview": false,
         "type": "plant",
-        "page": "CPR403-002",
         "description": "Regen Gas Booster Compressor",
         "lines": [],
         "valves": [
@@ -5933,7 +5910,7 @@
           },
           {
             "id": "0FV020",
-            "pos": { "l": 675, "t": 82.5, "w": 24, "h": 24 },
+            "pos": { "l": 677, "t": 82.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0FIC020OP",
             "rotated": ""
@@ -5951,9 +5928,36 @@
             "type": "sdv",
             "variableId": "403GL0EV011",
             "rotated": ""
+          },
+          {
+            "id": "403GLFilter",
+            "pos": { "l": 229.5, "t": 255.5, "w": 80, "h": 100 },
+            "image": "403Filter.jpg",
+            "type": "Filter",
+            "variableId": "403GLFilter",
+            "rotated": ""
+          },
+          {
+            "id": "403GLFilter2",
+            "pos": { "l": 229.5, "t": 390.5, "w": 94, "h": 120 },
+            "image": "403Filter.jpg",
+            "type": "Filter",
+            "variableId": "403GLFilter2",
+            "rotated": ""
+          },
+          {
+            "id": "403GLFilter2",
+            "pos": { "l": 229.5, "t": 545.5, "w": 94, "h": 120 },
+            "image": "403Filter.jpg",
+            "type": "Filter",
+            "variableId": "403GLFilter2",
+            "rotated": ""
           }
         ],
-        "equipments": [],
+  
+          "equipments":[
+        
+        ],
         "links": [
           {
             "id": "E-403-004",
@@ -6116,7 +6120,7 @@
           },
           {
             "id": "0PI034",
-            "pos": { "l": 369, "t": 746.5, "w": 80, "h": 20 },
+            "pos": { "l": 354, "t": 751.5, "w": 80, "h": 20 },
             "variableId": "403GL0PI034",
             "type": ""
           }
@@ -6141,9 +6145,7 @@
         "width": 1663,
         "height": 903,
         "imageUrl": "images/403G-5.png",
-        "overview": false,
         "type": "plant",
-        "page": "CPR403-002",
         "description": "Regen Gas Booster Compressor",
         "lines": [],
         "valves": [],
@@ -6204,19 +6206,50 @@
           },
           {
             "id": "0TI046B",
-            "pos": { "l": 928.5, "t": 335.5, "w": 80, "h": 20 },
+            "pos": { "l": 938.5, "t": 335.5, "w": 80, "h": 20 },
             "variableId": "403GL0TI046B",
             "type": ""
           },
           {
             "id": "0PI059B",
-            "pos": { "l": 1080.5, "t": 336.5, "w": 80, "h": 20 },
+            "pos": { "l": 1090.5, "t": 336.5, "w": 80, "h": 20 },
             "variableId": "403GL0PI059B",
             "type": ""
           },
           {
+            "id": "0PDI052B",
+            "pos": { "l": 1040.5, "t": 453.5, "w": 80, "h": 20 },
+            "variableId": "403GL0PDI052B",
+            "type": ""
+          },
+          {
+            "id": "0PI058B",
+            "pos": { "l": 1040.5, "t": 490.5, "w": 80, "h": 20 },
+            "variableId": "403GL0PI058B",
+            "type": ""
+          },
+          {
+            "id": "0TI044B",
+            "pos": { "l": 1040.5, "t": 540.5, "w": 80, "h": 20 },
+            "variableId": "403GL0TI044B",
+            "type": ""
+          },
+          {
+            "id": "0TI045B",
+            "pos": { "l": 1040.5, "t": 585.5, "w": 80, "h": 20 },
+            "variableId": "403GL0TI045B",
+            "type": ""
+          },
+
+          {
+            "id": "0PI056B",
+            "pos": { "l": 1040.5, "t": 630.5, "w": 80, "h": 20 },
+            "variableId": "403GL0PI056B",
+            "type": ""
+          },
+          {
             "id": "0SIC001B",
-            "pos": { "l": 1053.5, "t": 592.5, "w": 80, "h": 20 },
+            "pos": { "l": 1165.5, "t": 600.5, "w": 80, "h": 20 },
             "variableId": "403GL0SIC001B",
             "type": "controller"
           }
@@ -6234,15 +6267,13 @@
         "width": 1659,
         "height": 897,
         "imageUrl": "images/403G-6.png",
-        "overview": false,
         "type": "plant",
-        "page": "CPR403-004",
         "description": "Regen Gas Booster Compressor",
         "lines": [],
         "valves": [
           {
             "id": "0TIC011",
-            "pos": { "l": 830.5, "t": 200.5, "w": 24, "h": 24 },
+            "pos": { "l": 820.5, "t": 200.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0TIC001OP",
             "rotated": ""
@@ -6295,7 +6326,7 @@
         "sliders": [
           {
             "id": "0TIC011",
-            "pos": { "l": 840.5, "t": 243.5, "w": 24, "h": 10 },
+            "pos": { "l": 818.5, "t": 243.5, "w": 60, "h": 12 },
             "variableId": "403GL0TIC001OP",
             "rotated": "left"
           }
@@ -6310,9 +6341,7 @@
         "width": 1663,
         "height": 897,
         "imageUrl": "images/403G-7.png",
-        "overview": false,
         "type": "plant",
-        "page": "CPR403-005",
         "description": "Regen Gas Glycol Contractor",
         "lines": [],
         "valves": [
@@ -6325,56 +6354,56 @@
           },
           {
             "id": "0EV704",
-            "pos": { "l": 235.5, "t": 671.5, "w": 24, "h": 24 },
+            "pos": { "l": 245.5, "t": 676.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403GL0EV704",
             "rotated": ""
           },
           {
             "id": "0LIC705",
-            "pos": { "l": 600.5, "t": 793.5, "w": 24, "h": 24 },
+            "pos": { "l": 610.5, "t": 798.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0LIC705OP",
             "rotated": ""
           },
           {
             "id": "0LIC702",
-            "pos": { "l": 600.5, "t": 613.5, "w": 24, "h": 24 },
+            "pos": { "l": 610.5, "t": 618.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0LIC702OP",
             "rotated": ""
           },
           {
             "id": "0EV703",
-            "pos": { "l": 630.5, "t": 406.5, "w": 24, "h": 24 },
+            "pos": { "l": 640.5, "t": 406.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403GL0EV703",
             "rotated": ""
           },
           {
             "id": "0EV705",
-            "pos": { "l": 1420.5, "t": 116.5, "w": 24, "h": 24 },
+            "pos": { "l": 1430.5, "t": 120.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403GL0EV705",
             "rotated": ""
           },
           {
             "id": "0BPZIC705",
-            "pos": { "l": 1420.5, "t": 175.5, "w": 24, "h": 24 },
+            "pos": { "l": 1430.5, "t": 179.5, "w": 24, "h": 24 },
             "type": "bps",
             "variableId": "403GL0BP705",
             "rotated": ""
           },
           {
             "id": "0PIC085",
-            "pos": { "l": 1288.5, "t": 51.5, "w": 24, "h": 24 },
+            "pos": { "l": 1298.5, "t": 51.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0PIC085OP",
             "rotated": ""
           },
           {
             "id": "P003A",
-            "pos": { "l": 1285.5, "t": 399.5, "w": 41, "h": 48 },
+            "pos": { "l": 1290.5, "t": 399.5, "w": 41, "h": 48 },
             "rotated": "left",
             "type": "dosing",
             "namePos": "W",
@@ -6382,7 +6411,7 @@
           },
           {
             "id": "P003B",
-            "pos": { "l": 1285.5, "t": 542.5, "w": 41, "h": 48 },
+            "pos": { "l": 1290.5, "t": 542.5, "w": 41, "h": 48 },
             "rotated": "left",
             "type": "dosing",
             "namePos": "W",
@@ -6446,19 +6475,19 @@
           },
           {
             "id": "0PDI702",
-            "pos": { "l": 294.5, "t": 480.5, "w": 80, "h": 20 },
+            "pos": { "l": 274.5, "t": 480.5, "w": 80, "h": 20 },
             "variableId": "403GL0PDI702",
             "type": ""
           },
           {
             "id": "0LIC702",
-            "pos": { "l": 447.5, "t": 558.5, "w": 80, "h": 20 },
+            "pos": { "l": 444.5, "t": 563.5, "w": 80, "h": 20 },
             "variableId": "403GL0LIC702",
             "type": "controller"
           },
           {
             "id": "0LIC705",
-            "pos": { "l": 447.5, "t": 724.5, "w": 80, "h": 20 },
+            "pos": { "l": 444.5, "t": 730.5, "w": 80, "h": 20 },
             "variableId": "403GL0LIC705",
             "type": "controller"
           },
@@ -6494,25 +6523,25 @@
           },
           {
             "id": "0PI712",
-            "pos": { "l": 1253.5, "t": 331.5, "w": 80, "h": 20 },
+            "pos": { "l": 1249.5, "t": 331.5, "w": 80, "h": 20 },
             "variableId": "403GL0PI712",
             "type": ""
           },
           {
             "id": "0PI713",
-            "pos": { "l": 1252.5, "t": 473.5, "w": 80, "h": 20 },
+            "pos": { "l": 1247.5, "t": 473.5, "w": 80, "h": 20 },
             "variableId": "403GL0PI713",
             "type": ""
           },
           {
             "id": "0LI703",
-            "pos": { "l": 447.5, "t": 598.5, "w": 80, "h": 20 },
+            "pos": { "l": 447.5, "t": 603.5, "w": 80, "h": 20 },
             "variableId": "403GL0LI703",
             "type": ""
           },
           {
             "id": "0LI706",
-            "pos": { "l": 447.5, "t": 761.5, "w": 80, "h": 20 },
+            "pos": { "l": 444.5, "t": 768.5, "w": 80, "h": 20 },
             "variableId": "403GL0LI706",
             "type": ""
           },
@@ -6528,33 +6557,33 @@
         "sliders": [
           {
             "id": "SLI0702",
-            "pos": { "l": 401.5, "t": 517.5, "w": 23, "h": 122 },
+            "pos": { "l": 390.5, "t": 517.5, "w": 20, "h": 100 },
             "variableId": "403GL0LIC705PV",
             "color": "#03d204",
             "rotated": ""
           },
           {
             "id": "SLI0705",
-            "pos": { "l": 400.5, "t": 677.5, "w": 22, "h": 119 },
+            "pos": { "l": 390.5, "t": 707.5, "w": 20, "h": 100 },
             "variableId": "403GL0LIC702PV",
             "color": "#03d204",
             "rotated": ""
           },
           {
             "id": "0LIC705",
-            "pos": { "l": 614.5, "t": 838.5, "w": 24, "h": 10 },
+            "pos": { "l": 608.5, "t": 838.5, "w": 60, "h": 12 },
             "variableId": "403GL0LIC705OP",
             "rotated": "left"
           },
           {
             "id": "0LIC702",
-            "pos": { "l": 613.5, "t": 658.5, "w": 24, "h": 10 },
+            "pos": { "l": 608.5, "t": 658.5, "w": 60, "h": 12 },
             "variableId": "403GL0LIC702OP",
             "rotated": "left"
           },
           {
             "id": "0PIC085",
-            "pos": { "l": 1302.5, "t": 96.5, "w": 24, "h": 10 },
+            "pos": { "l":  1296.5, "t": 96.5, "w": 60, "h": 12 },
             "variableId": "403GL0PIC085OP",
             "rotated": "left"
           }
@@ -6569,57 +6598,55 @@
         "width": 1690,
         "height": 931,
         "imageUrl": "images/403G-8.png",
-        "overview": false,
         "type": "plant",
-        "page": "CPR403-007",
         "description": "Regen Gas Dehydration Unit",
         "lines": [],
         "valves": [
           {
             "id": "0EV702",
-            "pos": { "l": 360, "t": 33.5, "w": 24, "h": 24 },
+            "pos": { "l": 360, "t": 23.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403GL0EV702",
             "rotated": ""
           },
           {
             "id": "0LIC708",
-            "pos": { "l": 270, "t": 315.5, "w": 24, "h": 24 },
+            "pos": { "l": 267, "t": 303.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0LIC708OP",
             "rotated": ""
           },
           {
             "id": "0PIC710",
-            "pos": { "l": 1200, "t": 138.5, "w": 24, "h": 24 },
+            "pos": { "l": 1193, "t": 126.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0PIC710OP",
             "rotated": ""
           },
           {
             "id": "0TIC707",
-            "pos": { "l": 1180, "t": 463.5, "w": 24, "h": 24 },
+            "pos": { "l": 1170, "t": 450.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0TIC707OP",
             "rotated": ""
           },
           {
             "id": "0EV708",
-            "pos": { "l": 1252, "t": 372.5, "w": 24, "h": 24 },
+            "pos": { "l": 1252, "t": 360.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403GL0EV708",
             "rotated": ""
           },
           {
             "id": "0EV709",
-            "pos": { "l": 1260, "t": 463.5, "w": 24, "h": 24 },
+            "pos": { "l": 1260, "t": 450.5, "w": 24, "h": 24 },
             "type": "sdv",
             "variableId": "403GL0EV709",
             "rotated": ""
           },
           {
             "id": "0EV706",
-            "pos": { "l": 1471, "t": 418.5, "w": 24, "h": 24 },
+            "pos": { "l": 1471, "t": 406.5, "w": 24, "h": 24 },
             "type": "sdv",
             "namePos": "N",
             "rotated": "",
@@ -6627,21 +6654,21 @@
           },
           {
             "id": "0TIC707B",
-            "pos": { "l": 1178, "t": 572.5, "w": 24, "h": 24 },
+            "pos": { "l": 1170, "t": 560.5, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0TIC707OP",
             "rotated": ""
           },
           {
             "id": "BL001A",
-            "pos": { "l": 1300, "t": 535.5, "w": 41, "h": 48 },
+            "pos": { "l": 1290, "t": 515.5, "w": 41, "h": 48 },
             "type": "pump",
             "variableId": "403GLBL01A",
             "rotated": ""
           },
           {
             "id": "BL001B",
-            "pos": { "l": 1300, "t": 608.5, "w": 41, "h": 48 },
+            "pos": { "l": 1290, "t": 588.5, "w": 41, "h": 48 },
             "type": "pump",
             "variableId": "403GLBL01B",
             "rotated": ""
@@ -6723,73 +6750,73 @@
         "indicators": [
           {
             "id": "0TI714",
-            "pos": { "l": 274, "t": 561.5, "w": 80, "h": 20 },
+            "pos": { "l": 270, "t": 547.5, "w": 80, "h": 20 },
             "variableId": "403GL0TI714",
             "type": ""
           },
           {
             "id": "0TI715",
-            "pos": { "l": 465, "t": 662.5, "w": 80, "h": 20 },
+            "pos": { "l": 460, "t": 652.5, "w": 80, "h": 20 },
             "variableId": "403GL0TI715",
             "type": ""
           },
           {
             "id": "0LI713",
-            "pos": { "l": 600, "t": 806.5, "w": 80, "h": 26 },
+            "pos": { "l": 595, "t": 796.5, "w": 80, "h": 26 },
             "variableId": "403GL0LI713",
             "type": ""
           },
           {
             "id": "0LI714",
-            "pos": { "l": 600, "t": 843.5, "w": 80, "h": 26 },
+            "pos": { "l": 595, "t": 830.5, "w": 80, "h": 26 },
             "variableId": "403GL0LI714",
             "type": ""
           },
           {
             "id": "0TI710",
-            "pos": { "l": 797, "t": 188.5, "w": 80, "h": 20 },
+            "pos": { "l": 792, "t": 180.5, "w": 80, "h": 20 },
             "variableId": "403GL0TI710",
             "type": ""
           },
           {
             "id": "0TI711",
-            "pos": { "l": 766, "t": 264.5, "w": 80, "h": 20 },
+            "pos": { "l": 760, "t": 250.5, "w": 80, "h": 20 },
             "variableId": "403GL0TI711",
             "type": ""
           },
           {
             "id": "0PIC710",
-            "pos": { "l": 904, "t": 267.5, "w": 80, "h": 20 },
+            "pos": { "l": 904, "t": 257.5, "w": 80, "h": 20 },
             "variableId": "403GL0PIC710",
             "type": "controller"
           },
           {
             "id": "0PI731",
-            "pos": { "l": 548, "t": 377.5, "w": 80, "h": 20 },
+            "pos": { "l": 542, "t": 365.5, "w": 80, "h": 20 },
             "variableId": "403GL0PI731",
             "type": ""
           },
           {
             "id": "0LI711",
-            "pos": { "l": 368, "t": 409.5, "w": 80, "h": 26 },
+            "pos": { "l": 366, "t": 400.5, "w": 80, "h": 26 },
             "variableId": "403GL0LI711",
             "type": ""
           },
           {
             "id": "0PI711",
-            "pos": { "l": 549, "t": 410.5, "w": 80, "h": 20 },
+            "pos": { "l": 545, "t": 400.5, "w": 80, "h": 20 },
             "variableId": "403GL0PI711",
             "type": ""
           },
           {
             "id": "0TIC707",
-            "pos": { "l": 719, "t": 449.5, "w": 80, "h": 20 },
+            "pos": { "l": 709, "t": 443.5, "w": 80, "h": 20 },
             "variableId": "403GL0TIC707",
             "type": "controller"
           },
           {
             "id": "0TI706",
-            "pos": { "l": 718, "t": 499.5, "w": 80, "h": 20 },
+            "pos": { "l": 709, "t": 493.5, "w": 80, "h": 20 },
             "variableId": "403GL0TI706",
             "type": ""
           }
@@ -6799,25 +6826,25 @@
         "sliders": [
           {
             "id": "0LIC708",
-            "pos": { "l": 282, "t": 360.5, "w": 24, "h": 10 },
+            "pos": { "l":  265, "t": 340.5, "w": 60, "h": 12 },
             "variableId": "403GL0LIC708OP",
             "rotated": "left"
           },
           {
             "id": "0PIC710",
-            "pos": { "l": 1214, "t": 183.5, "w": 24, "h": 10 },
+            "pos": { "l": 1191, "t": 163.5, "w": 60, "h": 12 },
             "variableId": "403GL0PIC710OP",
             "rotated": "left"
           },
           {
             "id": "0TIC707",
-            "pos": { "l": 1192, "t": 508.5, "w": 24, "h": 10 },
+            "pos": { "l": 1168, "t": 498.5, "w": 60, "h": 12 },
             "variableId": "403GL0TIC707OP",
             "rotated": "left"
           },
           {
             "id": "0TIC707B",
-            "pos": { "l": 1191, "t": 617.5, "w": 24, "h": 10 },
+            "pos": { "l": 1168, "t": 597.5, "w": 60, "h": 12 },
             "rotated": "left",
             "variableId": "403GL0TIC707OP"
           }
@@ -6832,15 +6859,13 @@
         "width": 1690,
         "height": 912,
         "imageUrl": "images/403G-9.png",
-        "overview": false,
         "type": "plant",
-        "page": "CPR403-008",
         "description": "Regen Gas Dehydration Unit",
         "lines": [],
         "valves": [
           {
             "id": "0PIC706",
-            "pos": { "l": 652, "t": 74, "w": 24, "h": 24 },
+            "pos": { "l": 654, "t": 74, "w": 24, "h": 24 },
             "type": "controller",
             "variableId": "403GL0PIC706OP",
             "rotated": ""
@@ -6872,14 +6897,14 @@
         "equipments": [
           {
             "id": "403GLFilter",
-            "pos": { "l": 836.5, "t": 337.5, "w": 94, "h": 120 },
+            "pos": { "l": 836.5, "t": 327.5, "w": 94, "h": 120 },
             "image": "403Filter.jpg",
             "type": "Filter",
             "buttons": ""
           },
           {
             "id": "403GLFilter2",
-            "pos": { "l": 836.5, "t": 578.5, "w": 94, "h": 120 },
+            "pos": { "l": 836.5, "t": 568.5, "w": 94, "h": 120 },
             "image": "403Filter.jpg",
             "type": "Filter",
             "buttons": ""
@@ -6937,7 +6962,7 @@
           },
           {
             "id": "0LI709",
-            "pos": { "l": 361, "t": 564, "w": 80, "h": 20 },
+            "pos": { "l": 361, "t": 574, "w": 80, "h": 20 },
             "variableId": "403GL0LI709",
             "type": ""
           },
@@ -6949,7 +6974,7 @@
           },
           {
             "id": "0PDI728",
-            "pos": { "l": 872, "t": 735, "w": 80, "h": 20 },
+            "pos": { "l": 835, "t": 735, "w": 80, "h": 20 },
             "variableId": "403GL0PDI728",
             "type": ""
           }
@@ -6966,7 +6991,7 @@
           },
           {
             "id": "0PIC706",
-            "pos": { "l": 666, "t": 119, "w": 24, "h": 10 },
+            "pos": { "l": 652, "t": 119, "w": 60, "h": 12 },
             "variableId": "403GL0PIC706OP",
             "rotated": "left"
           }
