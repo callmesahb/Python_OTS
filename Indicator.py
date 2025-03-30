@@ -17,17 +17,14 @@ class Indicator(QtWidgets.QWidget):
         self.pvvalues = pvvalues
         self.store = store
         self.variableid = variableid
-        # self.itype = itype
         self.InitUI()
-        # self.setGeometry(576,262,100,30)
         
         
     def InitUI(self):
         self.hlayout = QtWidgets.QHBoxLayout()
-        # self.setLayout(self.hlayout)
+        
+        
         self.setMinimumHeight(5)
-        # self.setFixedSize(200,50)
-        # self.setFixedHeight(50)
         
         self.settingValue()
     def settingValue(self):
@@ -45,10 +42,19 @@ class Indicator(QtWidgets.QWidget):
                 self.contplate = ControllerPlate(self.name,self.pvvalues,self.variableid,self.store)
                 self.contplate.show()
             if self.itype == "":
-                self.sensor = Sensor(self.value,self.store,self.name)
+                self.sensor = Sensor(self.value,self.store,self.name,self.variableid)
                 self.sensor.setWindowTitle(self.name)
                 self.sensor.sensorname.setText(self.name)
                 self.sensor.show()
+    
+    @QtCore.pyqtSlot(dict,list)
+    def updatinvalue(self,data,tags):
+        if self.itype == "":
+            value = data[self.variableid]
+            self.Value.setText(str(round(value,2)))
+        if self.itype == "controller":
+            value = data[self.variableid]
+            print(f"{self.variableid}:{value}")
 
     # def paintEvent(self, event):
     #     painter = QPainter(self)

@@ -3,15 +3,17 @@ from controllerbar import TriangleWidget
 import sys
 
 class Sensor(QtWidgets.QWidget):
-    def __init__(self,value,store,name):
+    def __init__(self,value,store,name,variableid):
+        updatevalues = QtCore.pyqtSignal(dict,list)
         super().__init__()
         self.setWindowTitle("")
         self.value = value
         self.name = name
         self.store = store
-        self.details = self.store.SettingDetailsofsensor(name)
+        self.variableid = variableid
+        self.details = self.store.SettingDetailsofsensor(variableid)
         self.unit = self.store.GettingUnit(name)
-        print(self.unit)
+        self.store.updatevalues.connect(self.updatingvalue)
         self._InitUI()
     def _InitUI(self):
         self.vlayout = QtWidgets.QVBoxLayout()
@@ -54,6 +56,13 @@ class Sensor(QtWidgets.QWidget):
         hlayout_op.addWidget(self.PV)
         hlayout_op.addWidget(self.PVValue)
         self.vlayout.addLayout(hlayout_op)
+    
+    @QtCore.pyqtSlot(dict,list)
+    def updatingvalue(self,data,tags):
+        value = data[self.variableid]
+        self.PVValue.setText(str(round(value,2)))
+        self.Progressbar.progress.setValue(int(value))
+        self.Progressbar.setRightValue(int(value))
         
         
 if __name__ == "__main__":

@@ -1,15 +1,19 @@
 from PyQt6 import QtWidgets,QtCore
+from Store import Store
 import sys
 
 class Slider(QtWidgets.QWidget):
-    def __init__(self,rotated,w,h,op,name):
+    updatevalues = QtCore.pyqtSignal(dict,list)
+    def __init__(self,rotated,w,h,op,name,store:Store,variableid):
         super().__init__()
         self.rotated = rotated
         self.w = w
         self.h = h
         self.op = op
         self.name = name
-        
+        self.store = store
+        self.variableid = variableid
+        self.store.updatevalues.connect(self.updateSlider)
         self.setAttribute(QtCore.Qt.WidgetAttribute.WA_TranslucentBackground)
         # print(self.rotated)
         
@@ -37,7 +41,12 @@ class Slider(QtWidgets.QWidget):
             self.progress_bar.setFixedSize(self.w,self.h)
         if self.name[0] == "S":
             self.valuelabel.setHidden(True)
-        
+            
+    @QtCore.pyqtSlot(dict,list)
+    def updateSlider(self,data,tags):
+        value = data[self.variableid]
+        self.progress_bar.setValue(int(value))
+        self.valuelabel.setText(str(value))
     def settingRotation(self):
         pass
 if __name__ == '__main__':

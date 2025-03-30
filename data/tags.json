@@ -1333,7 +1333,33 @@
     { "name": "407ES0LIC003BOPM", "unit": "%", "value": 50, "initial": 50 },
     { "name": "407ES0LIC003BOPL", "unit": "%", "value": 0.0, "initial": 0.0 },
     { "name": "407ES0LIC003BOPH", "unit": "%", "value": 100.0, "initial": 100.0 },
-  
+    {
+      "name": "407ES0FIC016AOP",
+      "unit": "%",
+      "value": 50,
+      "initial": 50,
+      "R": [0.0, 100.0],
+      "HR": [25.0, 75.0],
+      "HHR": [10.0, 90.0],
+      "errorValue": 0.0
+    },
+    {
+      "name": "407ES0FIC016APV",
+      "unit": "m",
+      "value": 49.995,
+      "initial": 49.995,
+      "R": [0, 100],
+      "HR": [25, 75],
+      "HHR": [5, 90]
+    },
+    { "name": "407ES0FIC016ASP", "unit": "", "value": 49.995, "initial": 49.995 },
+    { "name": "407ES0FIC016ATV", "value": 0.0, "initial": 0.0 },
+    { "name": "407ES0FIC016ACAS", "value": 0.0, "initial": 0.0 },
+    { "name": "407ES0FIC016AKC", "value": 2, "initial": 2 },
+    { "name": "407ES0FIC016ATI", "unit": "min", "value": 30, "initial": 30 },
+    { "name": "407ES0FIC016AOPM", "unit": "%", "value": 50, "initial": 50 },
+    { "name": "407ES0FIC016AOPL", "unit": "%", "value": 0.0, "initial": 0.0 },
+    { "name": "407ES0FIC016AOPH", "unit": "%", "value": 100.0, "initial": 100.0 },
     {
       "name": "407ES0FIC014AOP",
       "unit": "%",

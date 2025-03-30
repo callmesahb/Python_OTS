@@ -151,7 +151,7 @@ class MainWidget(QtWidgets.QWidget):
                 variableid = _slider["variableId"]
                 pvvalues = self.store.GettingControllerDetails(variableid)
                 rotated = _slider["rotated"]
-                slider = Slider(rotated, w, h, pvvalues[2],name)
+                slider = Slider(rotated, w, h, pvvalues[2],name,self.store,variableid)
                 slider.setGeometry(int(self.scale * pos["l"]), int(self.scale * pos["t"]), int(self.scale * pos["w"]),
                                    int(self.scale * pos["h"]))
                 tempScene.addWidget(slider)

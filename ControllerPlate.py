@@ -118,7 +118,7 @@ class ControllerPlate(QtWidgets.QWidget):
         pvvalue = data[pv]
         opvalue = data[op]
         tvvalue = data[tv]
-        print(f"{Varid}:{tvvalue}")
+        # print(f"{Varid}:{tvvalue}")
         if tvvalue == 0.0:
             self.OPValue.setReadOnly(True)
             self.PVValue.setReadOnly(True)
@@ -128,3 +128,7 @@ class ControllerPlate(QtWidgets.QWidget):
         self.SPValue.setText(str(round(spvalue,2)))
         self.PVValue.setText(str(round(pvvalue,2)))
         self.OPValue.setText(str(round(opvalue,2)))
+        
+        self.Progressbar.progress.setValue(int(pvvalue))
+        self.Progressbar.setRightValue(int(pvvalue))
+        
